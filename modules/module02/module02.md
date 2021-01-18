@@ -12,8 +12,7 @@ for creating these elements so you can apply them to your own projects.
 
 Steps to take
 
-[Exercise 1 Modeling Wall Types, Structures, and Design
-Features](#Exercise1A)
+[Exercise 1 Modeling Wall Types, Structures, and Design Features](#Exercise1A)
 
 [Exercise 2 Adding Doors, Windows, and Wall Openings](#Exercise1B)
 
@@ -39,7 +38,7 @@ Objectives:
 
 -   Edit wall boundaries to create custom shapes.
 
-Change exterior wall types through substitution in-place
+## Change exterior wall types through substitution in-place
 
 1.  Navigate to the folder containing the downloaded resources for
     Module 1.
@@ -55,31 +54,25 @@ Module02_Resources
 
     a.  Hover over an exterior wall.
 
-        ![](media\image2.png){width="2.5972222222222223in"
-        height="1.4763156167979004in"}
+    ![Image 2](media\image2.png)
 
     b.  Right click in the canvas window and select Select All
         > Instances\>Visible in View.
 
-        ![](media\image3.png){width="2.246672134733158in"
-        height="2.0347222222222223in"}
+    ![Image 3](media\image3.png)
 
     c.  Select Exterior -- Brick wall type.
 
-        ![](media\image4.png){width="1.8202318460192477in"
-        height="1.5625in"}
+    ![Image 4](media\image4.png)
 
 5.  Open {3D} 3D View. Confirm exterior walls are brick.
 
-    ![](media\image5.png){width="2.638888888888889in" height="1.5in"}
+    ![Image 5 ](media\image5.png)
 
-Create a new interior wall type
+## Create a new interior wall type
 
 1.  Open the Ground Floor plan view.
 
-```{=html}
-<!-- -->
-```
 1.  On the Architecture tab, click Wall.
 
     ![](media\image6.png){width="1.88in" height="0.95in"}
@@ -88,18 +81,15 @@ Create a new interior wall type
 
     a.  Click Edit Type.
 
-        ![](media\image7.png){width="2.0347222222222223in"
-        height="1.599174321959755in"}
+    ![Image 7](media\image7.png)
 
     b.  Click Duplicate.
 
-        ![](media\image8.png){width="2.4652777777777777in"
-        height="1.2326388888888888in"}
+    ![Image 8](media\image8.png)
 
     c.  Rename to: Wood Panel Wall.
 
-        ![](media\image9.png){width="2.0831681977252843in"
-        height="0.9592793088363955in"}
+    ![Image 9](media\image9.png)
 
     d.  Click OK.
 
@@ -107,8 +97,7 @@ Create a new interior wall type
 
     a.  Click Edit Structure.
 
-        ![](media\image10.png){width="2.423611111111111in"
-        height="1.2118055555555556in"}
+    ![Image 10](media\image10.png)
 
     b.  Edit Structure \[1\] to:
 
@@ -116,8 +105,7 @@ Create a new interior wall type
 
         Thickness = **0' 1 5/8" (0.041m)**
 
-        ![](media\image11.png){width="2.482222222222222in"
-        height="0.7629779090113735in"}
+    ![Image 11](media\image11.png)
 
         *Note: Use search window in the Material Browser and type
         material name you are looking for.*
@@ -128,15 +116,12 @@ Create a new interior wall type
 c.  Click Insert button two times to add (2) new layers to the wall
     > definition
 
-    ![](media\image12.png){width="2.3399365704286965in"
+![Image 12](media\image12.png){width="2.3399365704286965in"
     height="1.0625in"}
 
-    ![](media\image13.png){width="2.3402777777777777in"
+![Image 13](media\image13.png){width="2.3402777777777777in"
     height="0.4128477690288714in"}
 
-```{=html}
-<!-- -->
-```
 6.  Edit Layer 2:
 
     a.  Select Layer 2 row
@@ -156,20 +141,16 @@ d.  Change Material =
 
     Wood - Horizontal Panel
 
-    ![](media\image14.png){width="2.3662445319335084in"
-    height="1.2360269028871391in"}
+![Image 14](media\image14.png)
 
 > Note: Use search window in the Material Browser and type material name
 > you are looking for.
 
 e.  Change Thickness = **0' 1/2" (0.012m)**
 
-    ![](media\image15.png){width="2.451388888888889in"
-    height="0.7107808398950132in"}
+![Image 15](media\image15.png)
 
-```{=html}
-<!-- -->
-```
+
 7.  Edit Layer 3:
 
     a.  Select Layer 3 row
@@ -187,12 +168,9 @@ d.  Change Material =
 
 e.  Change Thickness = **0' 1/2" (0.012m)**
 
-    ![](media\image16.png){width="2.451388888888889in"
-    height="0.7252854330708661in"}
+![Image 16](media\image16.png)
 
-```{=html}
-<!-- -->
-```
+
 8.  Click OK button twice to exit both dialog boxes
 
 9.  Click Modify to end the wall placement command
