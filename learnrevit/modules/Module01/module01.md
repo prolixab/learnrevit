@@ -5,14 +5,12 @@ permalink: /modules/module01/
 ---
 
 
-Modeling Building Elements
+##Modeling Building Elements
 
 This module serves as a good introduction to the concepts of host
 elements such as walls and wall hosted elements such as doors and
 windows. With these key underpinnings you should feel confident in
 developing your own BIM models applying these concepts.
-
-Steps to take
 
 [Exercise 1 Modeling Exterior and Interior Walls](exercise1)
 
