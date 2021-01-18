@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Module 03 | Learn Revit</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Module 03" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="/modules/module03/" />
+<meta property="og:url" content="/modules/module03/" />
+<meta property="og:site_name" content="Learn Revit" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Module 03" />
+<script type="application/ld+json">
+{"headline":"Module 03","@type":"WebPage","url":"/modules/module03/","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Learn Revit" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Learn Revit</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/modules/module01/exercise1">Module 1 - Exercise 1</a><a class="page-link" href="/modules/module01/exercise2">Module 1 - Exercise 2</a><a class="page-link" href="/modules/module01/exercise3">Module 1 - Exercise 3</a><a class="page-link" href="/modules/module01/">Module 1</a><a class="page-link" href="/modules/module02/">Module 2</a><a class="page-link" href="/modules/module03/">Module 03</a><a class="page-link" href="/modules/module04/">Module 04</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Module 03</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Curtain Systems</p>
+
+<p>In this module, you will explore techniques for working with curtain
+walls and the elements that</p>
+
+<p>define a complete curtain system—panels, grids, and mullions.</p>
+
+<p>You will be able to:</p>
+
+<ul>
+  <li>
+    <p>Specify the layout and spacing of the curtain wall elements for new
+curtain wall systems and how to modify existing ones.</p>
+  </li>
+  <li>
+    <p>Explore the design options available for customizing grid patterns,
+panel materials, and panel types.</p>
+  </li>
+</ul>
+
+<p>Steps to take</p>
+
+<p><a href="#Exercise1A">Exercise 1 Creating Curtain Walls</a></p>
+
+<p><a href="#Exercise1B">Exercise 2 Adjusting Grid Lines</a></p>
+
+<p><a href="#Exercise1C">Exercise 3 Choosing and Creating Curtain Panel Types</a></p>
+
+<p><a href="#Exercise1D">Exercise 4 Placing Doors in Curtain Walls</a></p>
+
+<p>[]{#Exercise1A .anchor}Exercise 1 — Modeling Wall Types, Structures,
+and Design Features</p>
+
+<p>In this exercise, you will learn to substitute a curtain wall for an
+opaque wall and define its grid line layout through parametric rules.</p>
+
+<p>Objectives:</p>
+
+<ul>
+  <li>
+    <p>Create new curtain walls.</p>
+  </li>
+  <li>
+    <p>Change the type of an existing wall to a curtain wall.</p>
+  </li>
+  <li>
+    <p>Adjust the placement and orientation of curtain walls.</p>
+  </li>
+  <li>
+    <p>Define curtain wall type properties to automatically place curtain
+grids and</p>
+
+    <p>mullions.</p>
+  </li>
+</ul>
+
+<p>Create a new curtain wall type and define its properties</p>
+
+<ol>
+  <li>Navigate to the folder containing the downloaded resources for
+Module 1.</li>
+</ol>
+
+<p>Module03_Resources</p>
+
+<ol>
+  <li>
+    <p>Open Revit file: Module03Ex01_Creating curtain
+walls_Imperial_Start.rvt</p>
+  </li>
+  <li>
+    <p>Open the First Floor plan view.</p>
+  </li>
+  <li>
+    <p>Create a new curtain wall type.</p>
+
+    <p>a.  Select the exterior wall indicated by Mark 1 below.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image2.png){width="2.316389982502187in"
+height="1.5138888888888888in"}
+</code></pre></div>    </div>
+
+    <p>b.  In Properties Palette, select:</p>
+  </li>
+</ol>
+
+<p>Curtain Wall 2 wall type.</p>
+
+<p><img src="media\image3.png" alt="" />{width=”1.8309175415573054in”
+height=”2.6319444444444446in”}</p>
+
+<p><em>Note: Curtain Wall 2 creates a singular plate of glass to the extents
+of the wall area with no 3D geometry automatically created for
+mullions.</em></p>
+
+<p>c.  In Properties palette, click Edit Type.</p>
+
+<p>d.  In Type Properties dialog box, click Duplicate.</p>
+
+<p>e.  Rename curtain wall to:</p>
+
+<blockquote>
+  <p>Residence NorthWall</p>
+</blockquote>
+
+<p>a.  Click OK.</p>
+
+<pre><code class="language-{=html}">&lt;!-- --&gt;
+</code></pre>
+<ol>
+  <li>
+    <p>Define curtain grid properties of new curtain wall.</p>
+
+    <p>a.  Set type properties for vertical and horizontal grids to Fixed
+    &gt; Number.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![C:\\Users\\herridj\\AppData\\Local\\Temp\\SNAGHTMLcba518.PNG](media\image4.png){width="2.3898140857392827in"
+height="2.4722222222222223in"}
+
+*Note: We will specify actual quantity of grids in the Instance
+properties.*
+</code></pre></div>    </div>
+
+    <p>b.  Click OK to continue.</p>
+
+    <p>c.  In Properties palette, set grid properties as follows:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image5.png){width="1.7954932195975504in"
+height="2.2777777777777777in"}
+</code></pre></div>    </div>
+
+    <p>d.  Click Apply to continue.</p>
+
+    <p>e.  Click Modify to end the command.</p>
+  </li>
+  <li>
+    <p>Open North-Residence elevation view.</p>
+  </li>
+  <li>
+    <p>Curtain wall should look like the finished one below.</p>
+
+    <p><img src="media\image6.png" alt="" />{width=”1.7777777777777777in”
+height=”1.9492377515310586in”}</p>
+  </li>
+  <li>
+    <p>Save the Revit file as: Module03Ex01_Creating curtain
+walls_Imperial_Finished.rvt</p>
+
+    <p>This concludes Exercise 1.</p>
+  </li>
+</ol>
+
+<p>[]{#Exercise1B .anchor}Exercise 2 — Adjusting Grid Lines</p>
+
+<p>In this exercise, you will explore designing a creative curtain grid
+layout for the same house used in the previous exercise using Autodesk
+Revit.</p>
+
+<p>Objectives:</p>
+
+<ul>
+  <li>
+    <p>Add new grids to existing curtain walls.</p>
+  </li>
+  <li>
+    <p>Edit existing curtain grid lines and segments.</p>
+  </li>
+  <li>
+    <p>Add mullions to curtain grid lines.</p>
+  </li>
+  <li>
+    <p>Pin and unpin curtain system elements to prevent or allow changes to
+the layout.</p>
+  </li>
+</ul>
+
+<p>Modify North side residence curtain wall design</p>
+
+<ol>
+  <li>Navigate to the folder containing the downloaded resources for
+Module 3.</li>
+</ol>
+
+<p>Module03_Resources</p>
+
+<ol>
+  <li>
+    <p>Open Revit file:</p>
+
+    <p>Module03Ex02_Adjusting grid lines_Imperial_Start.rvt</p>
+  </li>
+  <li>
+    <p>Open North-Residence elevation view.</p>
+
+    <p>a.  Starting curtain grid layout.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image6.png){width="1.7777777777777777in"
+height="1.9492377515310586in"}
+</code></pre></div>    </div>
+
+    <p>b.  Finished curtain grid layout.</p>
+  </li>
+</ol>
+
+<p><img src="media\image7.png" alt="" />{width=”1.7291666666666667in”
+height=”1.9223293963254593in”}</p>
+
+<ol>
+  <li>
+    <p>Deleting grid segments.</p>
+
+    <p>a.  Select grid line to be modified indicated by Mark 1 below.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image8.png){width="1.9934426946631671in"
+height="1.3958333333333333in"}
+
+*Note: You may need to use the TAB key to cycle to the nested
+grid line element.*
+</code></pre></div>    </div>
+
+    <p>b.  Click the Add / Remove Segments command.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image9.png){width="1.72in" height="1.0in"}
+</code></pre></div>    </div>
+
+    <p>c.  Click the grid segment indicated by the red X to remove it.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image8.png){width="1.9934426946631671in"
+height="1.3958333333333333in"}
+</code></pre></div>    </div>
+
+    <p>d.  Click Modify command to end the command.</p>
+
+    <p>e.  Confirm your result below.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image10.png){width="1.5560793963254593in"
+height="1.4513888888888888in"}
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Adding grid segments entire length.</p>
+
+    <p>a.  On the Architecture tab, Build panel, Click the Curtain Grid
+    &gt; command.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image11.png){width="2.4063648293963253in"
+height="0.7792847769028871in"}
+</code></pre></div>    </div>
+
+    <p>b.  Click the All Segments command.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image12.png){width="1.8in" height="0.8in"}
+</code></pre></div>    </div>
+
+    <p>c.  Snap a grid line at Mark 1 shown below. Hover over the bottom of
+    &gt; the curtain wall and find the midpoint snap for that panel and
+    &gt; left click with mouse to insert grid line.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image13.png){width="1.4279188538932635in"
+height="1.4722222222222223in"}
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Adding grid segments for one segment.</p>
+
+    <p>a.  Click the Curtain Grid command.</p>
+
+    <p>b.  Click the One Segment command.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image14.png){width="1.8in" height="0.8in"}
+</code></pre></div>    </div>
+
+    <p>c.  Snap a grid line at Mark 1 shown below. Hover over the bottom of
+    &gt; the curtain wall and find the midpoint snap for that panel and
+    &gt; left click with mouse to insert grid line.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image15.png){width="1.5508464566929134in"
+height="1.5763888888888888in"}
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Continue the grid layout process using the previous techniques until
+your elevation looks like the one below.</p>
+
+    <p><img src="media\image7.png" alt="" />{width=”1.7291666666666667in”
+height=”1.9223293963254593in”}</p>
+  </li>
+  <li>
+    <p>Add 3D mullions to curtain grid lines</p>
+
+    <p>a.  On the Architecture tab, Build panel, Click the Mullion command.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image16.png){width="2.3472222222222223in"
+height="0.7613757655293089in"}
+</code></pre></div>    </div>
+
+    <p>b.  On the Placement panel, Click the All Grid Lines command.</p>
+  </li>
+</ol>
+
+<blockquote>
+  <p><img src="media\image17.png" alt="" />{width=”1.03in” height=”0.8in”}</p>
+</blockquote>
+
+<p>c.  Place your cursor over any grid line on that curtain wall and left
+    &gt; click with mouse to apply 3D mullions to the entire curtain wall.</p>
+
+<blockquote>
+  <p><img src="media\image18.png" alt="" />{width=”1.58211176727909in”
+height=”1.7480107174103237in”}</p>
+</blockquote>
+
+<ol>
+  <li>Finished result shown below.</li>
+</ol>
+
+<blockquote>
+  <p><img src="media\image19.png" alt="" />{width=”1.7971642607174103in”
+height=”1.839750656167979in”}</p>
+</blockquote>
+
+<ol>
+  <li>
+    <p>Save the Revit file as: Module03Ex02_Adjusting grid
+lines_Imperial_Finished.rvt</p>
+
+    <p>This concludes Exercise 2.</p>
+  </li>
+</ol>
+
+<p>[]{#Exercise1C .anchor}Exercise 3 — Creating curtain panel types</p>
+
+<p>In this exercise, you will create a curtain panel type and layout for
+the house used in the previous exercise using Autodesk Revit.</p>
+
+<p>Objectives:</p>
+
+<ul>
+  <li>
+    <p>Select individual curtain wall panels.</p>
+  </li>
+  <li>
+    <p>Change curtain wall panels to different types.</p>
+  </li>
+  <li>
+    <p>Select multiple curtain wall panels to be modified at once.</p>
+  </li>
+  <li>
+    <p>Create new curtain panel types and specifying their properties.</p>
+  </li>
+</ul>
+
+<p>Assign curtain panels to specific locations on a curtain wall by
+substitution in-place</p>
+
+<ol>
+  <li>Navigate to the folder containing the downloaded resources for
+Module 3.</li>
+</ol>
+
+<p>Module03_Resources</p>
+
+<ol>
+  <li>
+    <p>Open Revit file: Module03Ex03_Creating curtain panel
+types_Imperial_Start.rvt</p>
+  </li>
+  <li>
+    <p>Open the North-Residence elevation view.</p>
+
+    <p>a.  Starting curtain panel layout.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image20.png){width="1.5833333333333333in"
+height="1.5405402449693788in"}
+</code></pre></div>    </div>
+
+    <p>b.  Finished curtain panel layout.</p>
+  </li>
+</ol>
+
+<p><img src="media\image21.png" alt="" />{width=”1.5825557742782153in” height=”1.6875in”}</p>
+
+<ol>
+  <li>
+    <p>Apply Solid – White curtain panel to upper left curtain panel
+indicated by Mark 1 below. Make a selection set of curtain panel
+using any of the techniques below.</p>
+
+    <p><img src="media\image22.png" alt="" />{width=”1.4406616360454942in”
+height=”1.5361964129483814in”}</p>
+
+    <p>a.  Tab selection technique:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>i.  Hover over mullion edge adjacent to panel 1.
+
+ii. Hit the Tab key (3) times to cycle through elements and
+    &gt; acquire a tool tip that reads curtain panel.
+
+    ![](media\image23.png){width="1.816550743657043in"
+    height="1.7916666666666667in"}
+
+iii. Left click to accept selection set.
+</code></pre></div>    </div>
+
+    <p>b.  Window and Filter selection set technique:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>i.  Create either a crossing window selection set window through
+    &gt; panel 1 from the roof down into panel 1 or create a normal
+    &gt; selection window around panel 1.
+
+ii. Click Filter from Selection panel.
+
+    ![](media\image24.png){width="0.92in" height="0.79in"}
+
+iii. Isolate Curtain Panels category. Click Check None, then
+     &gt; mark Curtain Panels category, and finally Click OK to
+     &gt; continue.
+
+     ![C:\\Users\\herridj\\AppData\\Local\\Temp\\SNAGHTML15e1174.PNG](media\image25.png){width="2.12917760279965in"
+     height="2.0555555555555554in"}
+
+     *Note: Window selections sets apply all the way through the
+     model view and may obtain panels you can't see from that
+     view. Experiment with where you create selection set
+     windows.*
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>In Properties Palette, select Solid - White curtain panel.</p>
+
+    <p><img src="media\image26.png" alt="" />{width=”1.4166666666666667in”
+height=”2.407438757655293in”}</p>
+  </li>
+  <li>
+    <p>Click Modify command to end command.</p>
+  </li>
+  <li>
+    <p>Complete the remaining White curtain panel assignments as shown
+below.</p>
+
+    <p><img src="media\image21.png" alt="" />{width=”1.6666666666666667in”
+height=”1.6521883202099739in”}</p>
+  </li>
+</ol>
+
+<p>Create new curtain panel types, materials, and finish design layout</p>
+
+<ol>
+  <li>
+    <p>Make a selection set of curtain panel indicated by Mark 1 below.</p>
+
+    <p><img src="media\image27.png" alt="" />{width=”1.6420505249343833in”
+height=”1.7509394138232721in”}</p>
+  </li>
+</ol>
+
+<pre><code class="language-{=html}">&lt;!-- --&gt;
+</code></pre>
+<ol>
+  <li>
+    <p>In Properties Palette, click Edit Type.</p>
+  </li>
+  <li>
+    <p>In Type Properties dialog box, click Duplicate.</p>
+  </li>
+  <li>
+    <p>Rename to: Solid - Gray</p>
+  </li>
+  <li>
+    <p>Click OK to continue.</p>
+  </li>
+  <li>
+    <p>Left click in the value field for Material, then click the Browse
+button.</p>
+
+    <p><img src="media\image28.png" alt="" />{width=”2.315679133858268in”
+height=”1.0920538057742781in”}</p>
+  </li>
+  <li>
+    <p>In the Material Browser, type: <strong>gray</strong> in the search window and
+select the Gray Panel material.</p>
+
+    <p><img src="media\image29.png" alt="" />{width=”2.4424070428696414in”
+height=”1.678526902887139in”}</p>
+  </li>
+  <li>
+    <p>Click OK twice to continue.</p>
+  </li>
+  <li>
+    <p>Click Modify to end the command.</p>
+  </li>
+  <li>
+    <p>Progress result shown below.</p>
+
+    <p><img src="media\image30.png" alt="" />{width=”1.7699070428696413in”
+height=”1.7951017060367453in”}</p>
+  </li>
+  <li>
+    <p>Repeat the previous steps to create a new panel type called: Wood
+Panel – Dark.</p>
+
+    <p>a.  Assign the material: Wood Panel – Dark.</p>
+
+    <p>b.  Apply the material to the following curtain panel location shown
+    &gt; below.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image31.png){width="1.8783497375328084in"
+height="1.9236111111111112in"}
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Save the Revit file as: Module03Ex03_Creating curtain panel
+types_Imperial_Finished.rvt</p>
+
+    <p>This concludes Exercise 3.</p>
+  </li>
+</ol>
+
+<p>[]{#Exercise1D .anchor}Exercise 4 — Placing Doors in Curtain Walls</p>
+
+<p>In this exercise, you will learn about a custom door type specifically
+designed for curtain walls for the house used in the previous exercise
+using Autodesk Revit.</p>
+
+<p>Objectives:</p>
+
+<ul>
+  <li>
+    <p>Adjust curtain grid segments to create a panel with the dimensions
+for a desired door opening.</p>
+  </li>
+  <li>
+    <p>Change a curtain wall panel element into a single or double door.</p>
+  </li>
+</ul>
+
+<p>Assign curtain panels to specific locations on a curtain wall by
+substitution in-place</p>
+
+<ol>
+  <li>Navigate to the folder containing the downloaded resources for
+Module 3.</li>
+</ol>
+
+<p>Module03_Resources</p>
+
+<ol>
+  <li>
+    <p>Open Revit file: Module03Ex04_Placing door in curtain
+walls_Imperial_Start.rvt</p>
+  </li>
+  <li>
+    <p>Open the South-Studio elevation view.</p>
+
+    <p>a.  Starting curtain panel layout.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image32.png){width="1.7497944006999124in"
+height="1.8125in"}
+</code></pre></div>    </div>
+
+    <p>b.  Finished curtain panel layout.</p>
+  </li>
+</ol>
+
+<p><img src="media\image33.png" alt="" />{width=”1.7709306649168854in”
+height=”1.9027777777777777in”}</p>
+
+<ol>
+  <li>
+    <p>Modify the curtain grid lines as shown below using the techniques
+learned in Exercise 2 of this module.</p>
+
+    <p><img src="media\image34.png" alt="" />{width=”1.7380949256342957in”
+height=”1.8125in”}</p>
+  </li>
+  <li>
+    <p>Change width of curtain panel indicated by Mark 1 below to receive a
+door.</p>
+
+    <p>a.  Select curtain grid line to reveal temporary dimensions.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image35.png){width="1.4027777777777777in"
+height="1.4848108048993875in"}
+</code></pre></div>    </div>
+
+    <p>b.  Set width = <strong>4’-0” (1.21m)</strong></p>
+
+    <p>c.  Hit the Enter key to accept value.</p>
+  </li>
+  <li>
+    <p>Assign the numbered curtain panels below, curtain panel type: Wood
+– Dark.</p>
+
+    <p><img src="media\image36.png" alt="" />{width=”1.737004593175853in”
+height=”1.8293667979002626in”}</p>
+  </li>
+  <li>
+    <p>Assign the highlighted panel in light blue below, curtain panel
+type:</p>
+  </li>
+</ol>
+
+<p>Curtain Wall Single Door - Wood</p>
+
+<p><img src="media\image37.png" alt="" />{width=”1.8730621172353457in”
+height=”1.9916896325459317in”}</p>
+
+<ol>
+  <li>
+    <p>Save the Revit file as: Module03Ex04_Placing door in curtain
+walls_Imperial_Finished.rvt</p>
+
+    <p>This concludes Exercise 4.</p>
+  </li>
+</ol>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Learn Revit</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Learn Revit</li><li><a class="u-email" href="mailto:galnd@jonkoping.se">galnd@jonkoping.se</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
