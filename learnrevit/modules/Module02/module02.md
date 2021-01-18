@@ -1,7 +1,10 @@
-![](media\image1.png){width="3.7995417760279966in"
-height="1.9331003937007873in"}Introduction to BIM
+---
+layout: page
+title: Module 2
+permalink: /modules/module02/
+---
 
-Module 02 Building Envelope
+Building Envelope
 
 This module builds upon the concepts introduced in Module 01 on Building
 Elements to provide a deeper understanding of building element tectonics
@@ -15,16 +18,6 @@ Features](#Exercise1A)
 [Exercise 2 Adding Doors, Windows, and Wall Openings](#Exercise1B)
 
 [Exercise 3 Creating Roof Shapes](#Exercise1C)
-
-Exercise requirements
-
-To use Autodesk Revit you will need an Autodesk ID. As a Student or
-Educator, you can obtain an Autodesk ID for free at
-[www.autodesk.com/education](http://www.autodesk.com/education) .
-
--   Download the Autodesk Revit software for free at
-    [www.autodesk.com/education](http://www.autodesk.com/education) and
-    install it.
 
 []{#Exercise1A .anchor}Exercise 1 --- Modeling Wall Types, Structures,
 and Design Features
