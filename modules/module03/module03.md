@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Module 03 
+title: Module 3 
 permalink: /modules/module03/
 ---
 

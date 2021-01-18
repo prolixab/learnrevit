@@ -6,3 +6,5 @@ layout: home
 ---
 
 # Revit Intro Course
+
+This is an introductory course in Revit.
