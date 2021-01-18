@@ -2,6 +2,7 @@
 layout: page
 title: Module 1 - Exercise 2
 permalink: /modules/module01/exercise2
+exclude: true
 ---
 
 

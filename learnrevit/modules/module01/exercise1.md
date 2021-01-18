@@ -2,15 +2,16 @@
 layout: page
 title: Module 1 - Exercise 1
 permalink: /modules/module01/exercise1
+exclude: true
 ---
 
 
-Modeling Building Elements
+# Modeling Building Elements
 
-Exercise 1 --- Modeling Exterior and Interior Walls
+## Exercise 1 --- Modeling Exterior and Interior Walls
 
-In this exercise, you will complete the development of both exterior and
-interior walls using a DWG underlay as a guide.
+**In this exercise, you will complete the development of both exterior and
+interior walls using a DWG underlay as a guide.**
 
 Objectives:
 
@@ -18,6 +19,7 @@ Objectives:
     plan view.
 
 -   Change the orientation of walls that have been placed.
+ 
 
 Create exterior walls
 
@@ -46,8 +48,7 @@ Module01_Resources
 
 6.  Completion of exterior walls highlighted in blue.
 
-    ![](media\image3.png){width="2.736111111111111in"
-    height="1.555262467191601in"}
+    ![](media\image3.png)
 
 Create interior walls
 
@@ -72,8 +73,7 @@ Create interior walls
 
 7.  Completion of interior walls highlighted in blue.
 
-    ![](media\image4.png){width="2.736111111111111in"
-    height="1.555262467191601in"}
+    ![](media\image4.png)
 
 
 1.  Save the Revit file as: Module01Ex01_Modeling Exterior and Interior

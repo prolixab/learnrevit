@@ -2,6 +2,7 @@
 layout: page
 title: Module 1 - Exercise 3
 permalink: /modules/module01/exercise3
+exclude: true
 ---
 
 Modeling Building Elements
