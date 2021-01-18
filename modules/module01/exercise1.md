@@ -1,17 +1,14 @@
 ---
 layout: page
-title: Module 1 - Exercise 1
+title: Modeling Building Elements - Exercise 1
 permalink: /modules/module01/exercise1
 exclude: true
 ---
 
-
-# Modeling Building Elements
-
-## Exercise 1 --- Modeling Exterior and Interior Walls
+## Modeling Exterior and Interior Walls
 
 **In this exercise, you will complete the development of both exterior and
-interior walls using a DWG underlay as a guide.**
+interior walls using an underlay as a guide. Note that the underlay serves only as a rough guide - exactness is not expected.**
 
 Objectives:
 
@@ -19,17 +16,13 @@ Objectives:
     plan view.
 
 -   Change the orientation of walls that have been placed.
- 
 
-Create exterior walls
 
-1.  Navigate to the folder containing the downloaded resources for
-    Module 1.
+### Create exterior walls
 
-Module01_Resources
+1.   **Download the start file [here](Module01Ex01.rvt).**
 
-2.  Open Revit file: Module01Ex01_Modeling Exterior and Interior
-    Walls_Imperial_Start.rvt
+2.  Open the file.
 
 3.  Open the Ground Floor plan view.
 
@@ -50,19 +43,14 @@ Module01_Resources
 
     ![](media\image3.png)
 
-Create interior walls
+### Create interior walls
 
-1.  Continue adding interior walls to the building model shown in the
-    video tutorial, using the underlay drawing as a guide to determine
+1.  Continue adding interior walls to the building model using the underlay drawing as a guide to determine
     their location.
 
 2.  Add new interior walls using the Generic 3\" (.08 m) wall type.
-    Place the walls
-
-    by setting the location line to either the Finish Face:Exterior or
-    Finish
-
-    Face:Interior and tracing the corresponding edge of the walls shown
+    Place the walls by setting the location line to either the Finish Face:Exterior or
+    Finish Face:Interior and tracing the corresponding edge of the walls shown
     in the underlay drawing.
 
     *Note: Placement of walls is direction dependent relative to the
@@ -76,8 +64,7 @@ Create interior walls
     ![](media\image4.png)
 
 
-1.  Save the Revit file as: Module01Ex01_Modeling Exterior and Interior
-    Walls_Imperial_Finished.rvt
+1.  Save the Revit file as: Module01Ex01_Finished.rvt and hand in.
 
     This concludes Exercise 1.
 
