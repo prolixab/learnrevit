@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Module 1 - Exercise 3
+title: Modeling Building Elements - Exercise 3
 permalink: /modules/module01/exercise3
 exclude: true
 ---
 
-Modeling Building Elements
+[Learn Revit](/learnrevit/) > [Module 1](/learnrevit/modules/module01/) > Exercise 3
 
-Exercise 3 --- Creating Floors and Roofs
+## Creating Floors and Roofs
 
-In this exercise, you will create flat roofs and pitched roofs for the
-house used in the previous exercise using Autodesk Revit.
+
+**In this exercise, you will create flat roofs and pitched roofs for the
+house used in the previous exercise using Autodesk Revit.**
 
 Objectives:
 
@@ -20,18 +21,13 @@ Objectives:
 
 -   Set the roof level and slope instance properties.
 
-Create a flat roof
+## Create a flat roof
 
-1.  Navigate to the folder containing the downloaded resources for
-    Module 1.
-
-Module01_Resources
-
-27. Open Revit file: Module01Ex03_Creating Roofs_Imperial_Start.rvt
+1.   **Download the start file [here](Module01Ex03.rvt).**
 
 28. Open the Workspace Roof plan view.
 
-    ![](media\image16.png){w
+    ![](media\image16.png)
 
 
 2.  On the Architecture tab, click Roof by Footprint.
@@ -51,7 +47,7 @@ Module01_Resources
 
     a.  Unmark Defines slope check box.
 
-        ![](media\image20.png)
+    ![](media\image20.png)
 
 31. Create a closed boundary as indicated by the (4) sketch lines
     numbered below. The sketch lines should be placed on the inside face
@@ -82,13 +78,13 @@ Module01_Resources
 
     a.  Click Attach Top / Base
 
-        ![](media\image24.png)
+    ![](media\image24.png)
 
     b.  Click edge of Flat roof just created
 
-        ![](media\image25.png)
+    ![](media\image25.png)
 
-Create a pitched roof
+## Create a pitched roof
 
 1.  Open the Living Area Roof plan view.
 
@@ -110,7 +106,7 @@ Create a pitched roof
 
     a.  Mark Defines slope check box.
 
-        ![](media\image27.png)
+    ![](media\image27.png)
 
 39. Create a closed boundary as indicated by the (10) sketch lines
     numbered below. Trace over the red linework in the view.
@@ -125,11 +121,11 @@ Create a pitched roof
 
     a.  Window select all of the sketch linework for the roof sketch.
 
-        ![](media\image29.png)
+    ![](media\image29.png)
 
     b.  In Properties palette, set pitch to **3" (0.0762m)**.
 
-        ![](media\image30.png)
+    ![](media\image30.png)
 
 41. Click Finish Edit Mode to create the 3D roof element.
 
@@ -140,10 +136,12 @@ Create a pitched roof
 
     a.  Attach highlighted walls to roof? Click Yes.
 
-        ![C:\\Users\\herridj\\AppData\\Local\\Temp\\SNAGHTML1bc7b6f.PNG](media\image31.png)
+    ![](media\image31.png)
 
 42. Finished roof exercise below
 
     ![](media\image32.png)
+
+43. Save the Revit file as: Module01Ex03_Finished.rvt and hand in.
 
     This concludes Exercise 3.

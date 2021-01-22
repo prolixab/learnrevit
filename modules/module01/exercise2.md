@@ -1,17 +1,16 @@
 ---
 layout: page
-title: Module 1 - Exercise 2
+title: Modeling Building Elements - Exercise 2
 permalink: /modules/module01/exercise2
 exclude: true
 ---
 
+[Learn Revit](/learnrevit/) > [Module 1](/learnrevit/modules/module01/) > Exercise 2
 
-Modeling Building Elements
+## Adding Doors and Windows
 
-Exercise 2 --- Adding Doors and Windows
-
-In this exercise, you will add doors and window openings to the same
-house in the previous exercise using Autodesk Revit.
+**In this exercise, you will add doors and window openings to the same
+house in the previous exercise using Autodesk Revit.**
 
 Objectives:
 
@@ -24,15 +23,9 @@ Objectives:
 
 -   Change door and window height properties.
 
-Place exterior doors
+### Place exterior doors
 
-1.  Navigate to the folder containing the downloaded resources for
-    Module 1.
-
-Module01_Resources
-
-8.  Open Revit file: Module01Ex02_Adding Doors and
-    Windows_Imperial_Start.rvt
+1.   **Download the start file [here](Module01Ex02.rvt).**
 
 9.  Open the Ground Floor plan view.
 
@@ -69,7 +62,7 @@ Module01_Resources
 > *Note: To change the handing of single doors prior to placement use
 > the space bar key.*
 
-Place interior doors
+### Place interior doors
 
 1.  On the Architecture tab, click Door.
 
@@ -83,7 +76,7 @@ Place interior doors
     a.  Hover cursor over Revit wall and use CAD underlay as a reference
         guide for handing and swing direction
 
-        ![](media\image9.png)
+    ![](media\image9.png)
 
     b.  Left click to place door
 
@@ -105,7 +98,7 @@ Place interior doors
 
     ![](media\image8.png)
 
-Place exterior windows
+### Place exterior windows
 
 1.  On the Architecture tab, click Window.
 
@@ -184,5 +177,7 @@ Change window head height
 
     ![](media\image15.png)
 
+27.   Save the Revit file as: Module01Ex02_Finished.rvt and hand in.
+    
     This concludes Exercise 2.
 

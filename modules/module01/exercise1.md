@@ -5,6 +5,8 @@ permalink: /modules/module01/exercise1
 exclude: true
 ---
 
+[Learn Revit](/learnrevit/) > [Module 1](/learnrevit/modules/module01/) > Exercise 1
+
 ## Modeling Exterior and Interior Walls
 
 **In this exercise, you will complete the development of both exterior and
