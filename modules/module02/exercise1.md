@@ -1,19 +1,17 @@
 ---
 layout: page
-title: Exercise 1
+title: Building Envelope - Exercise 1
 permalink: /modules/module02/exercise1
 exclude: true
 ---
 
-## Change exterior wall types through substitution in-place
+[Learn Revit](/learnrevit/) > [Module 2](/learnrevit/modules/module02/) > Exercise 1
 
-1.  Navigate to the folder containing the downloaded resources for
-    Module 1.
+## Modeling Wall Types, Structures, and Design Features
 
-Module02_Resources
+###  Change exterior wall types through substitution in-place
 
-2.  Open Revit file: Module02Ex01_Modelling wall types_structures_design
-    features_Imperial_Start.rvt
+2.  **Download the start file [here](Module02Ex01.rvt).**
 
 3.  Open the Ground Floor plan view.
 
@@ -36,13 +34,13 @@ Module02_Resources
 
     ![Image 5 ](media\image5.png)
 
-## Create a new interior wall type
+### Create a new interior wall type
 
 1.  Open the Ground Floor plan view.
 
 1.  On the Architecture tab, click Wall.
 
-    ![](media\image6.png){width="1.88in" height="0.95in"}
+    ![](media\image6.png)
 
 2.  In Properties Palette, select Generic 8\" (.20 m) wall type.
 
@@ -70,7 +68,7 @@ Module02_Resources
 
         Material = Wood -- Stud Layer
 
-        Thickness = **0' 1 5/8" (0.041m)**
+        Thickness = **0.041m**
 
     ![Image 11](media\image11.png)
 
@@ -83,11 +81,9 @@ Module02_Resources
 c.  Click Insert button two times to add (2) new layers to the wall
     > definition
 
-![Image 12](media\image12.png){width="2.3399365704286965in"
-    height="1.0625in"}
+![Image 12](media\image12.png)
 
-![Image 13](media\image13.png){width="2.3402777777777777in"
-    height="0.4128477690288714in"}
+![Image 13](media\image13.png)
 
 6.  Edit Layer 2:
 
@@ -113,7 +109,7 @@ d.  Change Material =
 > Note: Use search window in the Material Browser and type material name
 > you are looking for.
 
-e.  Change Thickness = **0' 1/2" (0.012m)**
+e.  Change Thickness = **0.012m**
 
 ![Image 15](media\image15.png)
 
@@ -133,7 +129,7 @@ d.  Change Material =
 
     Wood - Horizontal Panel
 
-e.  Change Thickness = **0' 1/2" (0.012m)**
+e.  Change Thickness = **0.012m**
 
 ![Image 16](media\image16.png)
 
@@ -142,7 +138,7 @@ e.  Change Thickness = **0' 1/2" (0.012m)**
 
 9.  Click Modify to end the wall placement command
 
-Change interior wall types through substitution in-place
+### Change interior wall types through substitution in-place
 
 1.  Select all interior walls of
 
@@ -150,34 +146,28 @@ Change interior wall types through substitution in-place
 
     a.  Hover over an interior wall.
 
-        ![](media\image17.png){width="2.3958333333333335in"
-        height="1.7013156167979002in"}
+     ![Image17](media\image17.png)
 
     b.  Right click in the canvas window and select Select All
         > Instances\>Visible in View.
 
     c.  Select Wood Panel Wall wall type.
 
-```{=html}
-<!-- -->
-```
+
 10. Open Ground Floor plan view.
 
 11. Select labeled exterior walls to receive Wood Panel Wall type.
 
-    ![](media\image18.png){width="2.3958333333333335in"
-    height="1.7013156167979002in"}
+    ![Image18](media\image18.png)
 
 12. In Properties palette, change wall type to: Wood Panel Wall type.
 
 13. Open {3D} 3D View. Confirm interior walls and selected exterior
     walls have wood paneling.
 
-    ![](media\image19.png){width="2.7291666666666665in"
-    height="1.5513156167979003in"}
+    ![Image19](media\image19.png)
 
-14. Save the Revit file as: Module02Ex01_Modelling wall
-    types_structures_design features_Imperial_Finished.rvt
+14. Save the Revit file as: Module02Ex01_Finished.rvt and hand in.
 
     This concludes Exercise 1.
 

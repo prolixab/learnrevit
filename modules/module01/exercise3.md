@@ -49,7 +49,7 @@ Objectives:
 
     ![](media\image20.png)
 
-31. Create a closed boundary as indicated by the (4) sketch lines
+31. Create a closed boundary as indicated by the 4 sketch lines
     numbered below. The sketch lines should be placed on the inside face
     of walls.
 
