@@ -50,7 +50,7 @@ Objectives:
 1.  Continue adding interior walls to the building model using the underlay drawing as a guide to determine
     their location.
 
-2.  Add new interior walls using the Generic 3\" (.08 m) wall type.
+2.  Add new interior walls using the Generic 3 1/8\" (.08 m) wall type.
     Place the walls by setting the location line to either the Finish Face:Exterior or
     Finish Face:Interior and tracing the corresponding edge of the walls shown
     in the underlay drawing.

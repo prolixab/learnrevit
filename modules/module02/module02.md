@@ -4,7 +4,7 @@ title: Module 2
 permalink: /modules/module02/
 ---
 
-Building Envelope
+# Building Envelope
 
 This module builds upon the concepts introduced in Module 01 on Building
 Elements to provide a deeper understanding of building element tectonics
