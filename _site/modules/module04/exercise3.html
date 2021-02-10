@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Interiors and Circulation - Exercise 3 | Learn Revit</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Interiors and Circulation - Exercise 3" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="prolixab.github.io/learnrevit/modules/module04/exercise3" />
+<meta property="og:url" content="prolixab.github.io/learnrevit/modules/module04/exercise3" />
+<meta property="og:site_name" content="Learn Revit" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Interiors and Circulation - Exercise 3" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"prolixab.github.io/learnrevit/modules/module04/exercise3","headline":"Interiors and Circulation - Exercise 3","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/learnrevit/assets/main.css"><link type="application/atom+xml" rel="alternate" href="prolixab.github.io/learnrevit/feed.xml" title="Learn Revit" /></head>
+<body><header class="site-header">
+
+    <div class="wrapper"><a class="site-title" rel="author" href="/learnrevit/">Learn Revit</a><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+  
+          <div class="trigger"><a class="page-link" href="/learnrevit/modules/module04/exercise1">Interiors and Circulation - Exercise 1</a><a class="page-link" href="/learnrevit/modules/module04/exercise2">Interiors and Circulation - Exercise 2</a><a class="page-link" href="/learnrevit/modules/module04/exercise3">Interiors and Circulation - Exercise 3</a><a class="page-link" href="/learnrevit/modules/module04/exercise4">Interiors and Circulation - Exercise 4</a><a class="page-link" href="/learnrevit/modules/module01/">Module 1</a><a class="page-link" href="/learnrevit/modules/module02/">Module 2</a><a class="page-link" href="/learnrevit/modules/module03/">Module 3</a><a class="page-link" href="/learnrevit/modules/module04/">Module 4</a></div>
+        </nav></div>
+  </header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Interiors and Circulation - Exercise 3</h1>
+  </header>
+
+  <div class="post-content">
+    <p><a href="/learnrevit/">Learn Revit</a> &gt; <a href="/learnrevit/modules/module04/">Module 4</a> &gt; Exercise 3</p>
+
+<h2 id="exercise-3--creating-a-floor-opening">Exercise 3 — Creating a Floor Opening</h2>
+
+<p>** In this exercise, you will create a floor opening for the spiral stair
+created in the previous exercise and add protective railing. **</p>
+
+<p>Objectives:</p>
+
+<ul>
+  <li>
+    <p>Cut an opening to allow stairs to pass through floors.</p>
+  </li>
+  <li>
+    <p>Calculate the head height of stairways.</p>
+  </li>
+  <li>
+    <p>Modify floor openings.</p>
+  </li>
+  <li>
+    <p>Create railings.</p>
+  </li>
+  <li>
+    <p>Modify the physical properties of railings.</p>
+  </li>
+</ul>
+
+<p>Create floor opening</p>
+
+<ol>
+  <li>Navigate to the folder containing the downloaded resources for
+Module 4.</li>
+</ol>
+
+<p>Module04_Resources</p>
+
+<ol>
+  <li>
+    <p>Open Revit file: Module04Ex03_Creating Floor
+Opening_Imperial_Start.rvt</p>
+  </li>
+  <li>
+    <p>Open the Second Floor plan view.</p>
+
+    <p>a.  Starting spiral stair layout.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image38.png){width="1.5130653980752407in"
+height="1.3263888888888888in"}
+</code></pre></div>    </div>
+
+    <p>b.  Finished spiral stair layout.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image39.png){width="1.5167508748906386in"
+height="1.3125in"}
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Select the second floor plate.</p>
+
+    <p>a.  Create a crossing-window selection set starting just outside the
+    &gt; East wall and dragging inwards into the building.</p>
+
+    <p>b.  Click the Filter tool to isolate the Floors category.</p>
+  </li>
+  <li>
+    <p>Edit floor boundary.</p>
+
+    <p>a.  On Modify | Floors tab, Mode panel, click Edit Boundary.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image40.png){width="1.86in" height="0.72in"}
+</code></pre></div>    </div>
+
+    <p>b.  Using the Line tool from the Draw panel, sketch out lines
+    &gt; indicated by Mark 1 and Mark 2 below.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image41.png){width="1.6625349956255469in"
+height="1.6493821084864393in"}
+</code></pre></div>    </div>
+
+    <p>c.  Switch to Center-ends Arc tool and draw an arc with a <strong>3’ –
+    &gt; 10” (1.16m)</strong> radius starting from the North side and ending
+    &gt; at 180 degrees. Refer to picture above.</p>
+
+    <p>d.  Hit ESC key once to end the sketch mode.</p>
+
+    <p>e.  Select the Arc line and drag the endpoint clockwise to the 270
+    &gt; degree angle. Use the trim tool to clean up the linework as
+    &gt; needed.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image42.png){width="1.6111111111111112in"
+height="1.4312040682414697in"}
+</code></pre></div>    </div>
+
+    <p>f.  Click the Finish Edit Mode to generate the floor opening.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image43.png){width="1.82in" height="0.74in"}
+</code></pre></div>    </div>
+
+    <p>g.  If you receive a warning message, click Unjoin elements.</p>
+
+    <p>h.  Finished floor opening result below.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image44.png){width="1.6388888888888888in"
+height="1.4779505686789152in"}
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>Add railing to floor opening</p>
+
+<ol>
+  <li>On the Architectural tab, Circulation panel, from the Railing tool
+pulldown menu, click Sketch Path.</li>
+</ol>
+
+<pre><code class="language-{=html}">&lt;!-- --&gt;
+</code></pre>
+<ol>
+  <li>
+    <p>Draw linear railing.</p>
+
+    <p>a.  Use the Line tool to sketch the horizontal line from the column
+    &gt; to the edge of the wall indicated by Mark 1.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image45.png){width="1.6388888888888888in"
+height="1.5020866141732283in"}
+</code></pre></div>    </div>
+
+    <p>b.  Click Finish Edit Mode to generate the first railing element.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image46.png){width="1.24in" height="0.8in"}
+
+*Note: Railing sketches must be contiguous. The circular railing
+will be created separately.*
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Draw curvilinear railing.</p>
+
+    <p>a.  Use the Center-ends Arc tool to sketch a curvilinear line
+    &gt; tracing the floor opening starting at the top of the stairs
+    &gt; and dragging the arc clockwise to the 180 degree position.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image47.png){width="1.6319444444444444in"
+height="1.4983978565179352in"}
+</code></pre></div>    </div>
+
+    <p>b.  Hit ESC key twice, then select the arc line and drag the end
+    &gt; point from 180 degrees to 270 degrees.</p>
+
+    <p>c.  Click Finish Edit Mode to generate the first railing element.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image46.png){width="1.24in" height="0.8in"}
+</code></pre></div>    </div>
+
+    <p>d.  Open Second Floor – Spiral Stair 3D View to see the finished
+    &gt; railing result below.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image48.png){width="2.0453018372703413in"
+height="1.4722222222222223in"}
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Save the Revit file as: Module04Ex03_Creating Floor
+Opening_Imperial_Finished.rvt</p>
+
+    <p>This concludes Exercise 3.</p>
+  </li>
+</ol>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/learnrevit/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Learn Revit</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Learn Revit</li><li><a class="u-email" href="mailto:galnd@jonkoping.se">galnd@jonkoping.se</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

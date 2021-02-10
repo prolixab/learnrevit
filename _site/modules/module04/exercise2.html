@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Interiors and Circulation - Exercise 2 | Learn Revit</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Interiors and Circulation - Exercise 2" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="prolixab.github.io/learnrevit/modules/module04/exercise2" />
+<meta property="og:url" content="prolixab.github.io/learnrevit/modules/module04/exercise2" />
+<meta property="og:site_name" content="Learn Revit" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Interiors and Circulation - Exercise 2" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"prolixab.github.io/learnrevit/modules/module04/exercise2","headline":"Interiors and Circulation - Exercise 2","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/learnrevit/assets/main.css"><link type="application/atom+xml" rel="alternate" href="prolixab.github.io/learnrevit/feed.xml" title="Learn Revit" /></head>
+<body><header class="site-header">
+
+    <div class="wrapper"><a class="site-title" rel="author" href="/learnrevit/">Learn Revit</a><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+  
+          <div class="trigger"><a class="page-link" href="/learnrevit/modules/module04/exercise1">Interiors and Circulation - Exercise 1</a><a class="page-link" href="/learnrevit/modules/module04/exercise2">Interiors and Circulation - Exercise 2</a><a class="page-link" href="/learnrevit/modules/module04/exercise3">Interiors and Circulation - Exercise 3</a><a class="page-link" href="/learnrevit/modules/module04/exercise4">Interiors and Circulation - Exercise 4</a><a class="page-link" href="/learnrevit/modules/module01/">Module 1</a><a class="page-link" href="/learnrevit/modules/module02/">Module 2</a><a class="page-link" href="/learnrevit/modules/module03/">Module 3</a><a class="page-link" href="/learnrevit/modules/module04/">Module 4</a></div>
+        </nav></div>
+  </header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Interiors and Circulation - Exercise 2</h1>
+  </header>
+
+  <div class="post-content">
+    <p><a href="/learnrevit/">Learn Revit</a> &gt; <a href="/learnrevit/modules/module04/">Module 4</a> &gt; Exercise 2</p>
+
+<h2 id="exercise-2--modeling-custom-stairs">Exercise 2 — Modeling Custom Stairs</h2>
+
+<p>** In this exercise, you will use various methods to customize stairs via
+Type Properties and Instance Properties. **</p>
+
+<p>Objectives:</p>
+
+<ul>
+  <li>
+    <p>Edit the sketch to change the stair boundary and shape of the
+risers.</p>
+  </li>
+  <li>
+    <p>Change stair and rail types.</p>
+  </li>
+  <li>
+    <p>Modify the steepness of a stair by adjusting the settings in the
+Properties</p>
+
+    <p>palette.</p>
+  </li>
+  <li>
+    <p>Create and edit a spiral stair.</p>
+  </li>
+</ul>
+
+<h3 id="create-a-steeper-stair-type-for-the-studio-space">Create a steeper stair type for the Studio space</h3>
+
+<ol>
+  <li>Navigate to the folder containing the downloaded resources for
+Module 4.</li>
+</ol>
+
+<p>Module04_Resources</p>
+
+<ol>
+  <li>
+    <p>Open Revit file:</p>
+
+    <p>Module04Ex02_Modeling Custom Stairs_Imperial_Start.rvt</p>
+  </li>
+  <li>
+    <p>Open First Floor plan view.</p>
+
+    <p>a.  Starting stair layout.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image19.png) b.  Finished stair layout.
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p><img src="media\image20.png" alt="" /></p>
+
+<ol>
+  <li>
+    <p>Create a new stair type.</p>
+
+    <p>a.  Select and delete the existing stair.</p>
+
+    <p>b.  In the Architectural tab, Circulation panel, click Stair by Sketch method.</p>
+
+    <p>c.  In Properties palette, select stair type: Residential – Open Riser.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image21.png)
+</code></pre></div>    </div>
+
+    <p>d.  Click Edit Type.</p>
+
+    <p>e.  Click Duplicate.</p>
+
+    <p>f.  Rename new stair type as:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Residential -- Open Riser - Steep.
+</code></pre></div>    </div>
+
+    <p>g.  Set stair properties as follows:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Min Tread Depth = **9" (0.22m)**
+
+Max Riser Height = **9" (0.22m)**
+
+![](media\image22.png)
+</code></pre></div>    </div>
+
+    <p>h.  Click OK to accept values and exit dialog boxes.</p>
+  </li>
+  <li>
+    <p>Create a new stair in the Studio room.</p>
+
+    <p>a.  Set the base of the stair across from the column and dragging
+    &gt; the cursor downwards towards the opening and setting the upper
+    &gt; level of the stairs just beyond the bounding box.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image23.png){
+</code></pre></div>    </div>
+
+    <p>b.  Move the upper level edge of the stair to align with the top
+    &gt; edge of the wall opening.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image24.png)
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="create-a-spiral-stair-for-the-residence-space">Create a spiral stair for the Residence space</h3>
+
+<ol>
+  <li>In the First Floor plan view, pan downwards until you see the dashed
+boundary with red lines where the spiral stair will be placed.</li>
+</ol>
+
+<blockquote>
+  <p><img src="media\image25.png" alt="" /></p>
+</blockquote>
+
+<ol>
+  <li>
+    <p>Create a new stair type.</p>
+
+    <p>a.  Select and delete the existing stair.</p>
+
+    <p>b.  On the Architectural tab, Circulation panel, click Stair by
+    &gt; Sketch method.</p>
+
+    <p>c.  In Properties palette, select stair type: Residential – Open
+    &gt; Riser.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image21.png)
+</code></pre></div>    </div>
+
+    <p>d.  Click Edit Type.</p>
+
+    <p>e.  Click Duplicate.</p>
+
+    <p>f.  Rename new stair type as:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Residential -- Open Riser - Spiral.
+</code></pre></div>    </div>
+
+    <p>g.  Set stair properties as follows:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Min Tread Depth = **11" (0.27m)**
+
+Max Riser Height = **10" (0.25m)**
+
+![](media\image26.png)
+</code></pre></div>    </div>
+
+    <p>h.  Click OK to accept values and exit dialog box.</p>
+  </li>
+  <li>
+    <p>Create spiral stair.</p>
+
+    <p>a.  Click Center End Arc mode.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image27.png)
+</code></pre></div>    </div>
+
+    <p>b.  Place center point at red X origin point.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image28.png)
+</code></pre></div>    </div>
+
+    <p>c.  Set Run radius = <strong>2’-0” (0.60m)</strong>.</p>
+
+    <p>d.  Left click to set the upper level of the stair.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image29.png)
+
+*Note: You will receive a warning message that the stair cannot
+be completed because it would revolve more than 360 degrees. We
+will address this next.*
+</code></pre></div>    </div>
+
+    <p>e.  In Properties palette, set Actual Tread Depth = <strong>10” (0.25m)</strong>.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image30.png)
+</code></pre></div>    </div>
+
+    <p>f.  Erase the existing spiral stair sketch.</p>
+
+    <p>g.  Resketch stair sketch.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image31.png)
+
+*Note: Confirm that 0 risers are remaining.*
+</code></pre></div>    </div>
+
+    <p>a.  Click Finish Edit Mode to create the 3D stair.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image8.png)
+</code></pre></div>    </div>
+
+    <p>b.  Progress stair shown below.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image32.png)
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Spiral stair fit and finish.</p>
+
+    <p>a.  Flip the stair direction, select the stair and click the Flip
+    &gt; grip highlighted in the red circle.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image33.png)
+</code></pre></div>    </div>
+
+    <p>b.  Rotate the stair so the upper level is horizontal. Select stair
+    &gt; and Click the Rotate tool in the Modify panel.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image34.png)
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Change stair handrail type to:</p>
+
+    <p>Handrail – Pipe.</p>
+  </li>
+  <li>
+    <p>Add a center pole for spiral stair.</p>
+
+    <p>a.  On the Architectural tab, Build panel, click Column:
+    &gt; Architectural tool from the pulldown menu.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](media\image35.png)
+</code></pre></div>    </div>
+
+    <p>b.  In Properties palette, select:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Round Column -- 8" diameter and set Height constraint to Roof.
+
+![](media\image36.png)
+</code></pre></div>    </div>
+
+    <p>c.  Locate column center at center of spiral stair.</p>
+  </li>
+  <li>
+    <p>Open First Floor – Spiral Stair 3D view.</p>
+
+    <p><img src="media\image37.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Save the Revit file as: Module04Ex02_Modeling Custom
+Stairs_Imperial_Finished.rvt</p>
+
+    <p>This concludes Exercise 2.</p>
+  </li>
+</ol>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/learnrevit/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Learn Revit</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Learn Revit</li><li><a class="u-email" href="mailto:galnd@jonkoping.se">galnd@jonkoping.se</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
