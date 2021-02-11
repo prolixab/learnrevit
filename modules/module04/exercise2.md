@@ -2,6 +2,7 @@
 layout: page
 title: Interiors and Circulation - Exercise 2
 permalink: /modules/module04/exercise2
+exclude: true
 ---
 
 [Learn Revit](/learnrevit/) > [Module 4](/learnrevit/modules/module04/) > Exercise 2
