@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Views and Visualization - Exercise 1 | Learn Revit</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Views and Visualization - Exercise 1" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="prolixab.github.io/learnrevit/modules/module06/exercise1" />
+<meta property="og:url" content="prolixab.github.io/learnrevit/modules/module06/exercise1" />
+<meta property="og:site_name" content="Learn Revit" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Views and Visualization - Exercise 1" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"prolixab.github.io/learnrevit/modules/module06/exercise1","headline":"Views and Visualization - Exercise 1","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/learnrevit/assets/main.css"><link type="application/atom+xml" rel="alternate" href="prolixab.github.io/learnrevit/feed.xml" title="Learn Revit" /></head>
+<body><header class="site-header">
+
+    <div class="wrapper"><a class="site-title" rel="author" href="/learnrevit/">Learn Revit</a><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+  
+          <div class="trigger"><a class="page-link" href="/learnrevit/modules/module01/">Module 1</a><a class="page-link" href="/learnrevit/modules/module02/">Module 2</a><a class="page-link" href="/learnrevit/modules/module03/">Module 3</a><a class="page-link" href="/learnrevit/modules/module04/">Module 4</a><a class="page-link" href="/learnrevit/modules/module06/">Module 6</a></div>
+        </nav></div>
+  </header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Views and Visualization - Exercise 1</h1>
+  </header>
+
+  <div class="post-content">
+    <p><a href="/learnrevit/">Learn Revit</a> &gt; <a href="/learnrevit/modules/module06/">Module 6</a> &gt; Exercise 1</p>
+
+<h2 id="exercise-1--creating-plan-views">Exercise 1 — Creating Plan Views</h2>
+
+<p><strong>In this exercise, you will learn how to duplicate existing views and repurpose them to create dedicated views for specific disciplines or functions.</strong></p>
+
+<p>Objectives:</p>
+
+<ul>
+  <li>
+    <p>Create new plan views by using the Plan View tool or duplicating
+existing plan</p>
+
+    <p>views.</p>
+  </li>
+  <li>
+    <p>Select which types of elements appear in a plan view by setting
+visibility</p>
+
+    <p>graphics overrides.</p>
+  </li>
+  <li>
+    <p>Turn on cropping and resize the crop region for a plan view.</p>
+  </li>
+  <li>
+    <p>Adjust the view range (the height of the cutting plane and the view
+depth) for</p>
+
+    <p>plan views and plan regions.</p>
+  </li>
+  <li>
+    <p>Select another level to underlay in a view.</p>
+  </li>
+  <li>
+    <p>Change the scale of a plan view and adjust the level of detail
+shown.</p>
+  </li>
+</ul>
+
+<h3 id="create-a-level-1-structural-plan-view">Create a Level 1 Structural plan view</h3>
+
+<p>This plan view will focus on emphasizing structural elements in a
+specific color.</p>
+
+<ol>
+  <li>
+    <p><strong>Download the start file <a href="Module06Ex01.rvt">here</a>.</strong></p>
+  </li>
+  <li>
+    <p>Open the First Floor plan view.</p>
+  </li>
+  <li>
+    <p>Duplicate the First Floor plan view.</p>
+
+    <p>a.  In Project Browser, select First Floor plan view name.</p>
+
+    <p>b.  Right click the named view and select Duplicate View \ Duplicate.</p>
+
+    <p><img src="media\image2.png" alt="" /></p>
+
+    <p>c.  Rename the copied version of the view in Project Browser by right clicking the name and select Rename.</p>
+
+    <p>d.  Rename view to: Level 1 – Structural.</p>
+
+    <p>e.  Click OK to continue.</p>
+  </li>
+  <li>
+    <p>Turn off the visibility of specific element categories.</p>
+
+    <p>a.  On the View tab, Graphics panel, click Visibility / Graphics tool.</p>
+
+    <p>b.  Unmark the following categories on the Model Categories tab.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Furniture
+
+Furniture systems
+
+Specialty equipment
+</code></pre></div>    </div>
+
+    <p><img src="media\image3.png" alt="" /></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*Note: Specialty equipment category not shown.*
+</code></pre></div>    </div>
+
+    <p>c.  Click OK.</p>
+  </li>
+  <li>
+    <p>Override graphic properties of structural columns to be a heavier
+lineweight and change the color to red.</p>
+
+    <p>a.  Open Visibility / Graphics Overrides dialog box, type shortcut: <strong>VG.</strong></p>
+
+    <p>b.  Scroll down and expand the Structural Column category.</p>
+
+    <p>c.  Override the Cut line property (Mark 1) for Stick Symbols sub-category and assign a lineweight of 8 (Mark 2) the color red (Mark 3).</p>
+
+    <p><img src="media\image4.png" alt="" /></p>
+
+    <p>d.  Click OK to continue.</p>
+
+    <p>e.  Click OK to exit the Visibility / Graphics Overrides dialog box.</p>
+  </li>
+  <li>
+    <p>Finished override results below.</p>
+
+    <p><img src="media\image5.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="create-a-level-1-furniture-plan-view">Create a Level 1 Furniture plan view</h3>
+
+<p>This plan view will focus on emphasizing furniture elements in a
+specific color.</p>
+
+<ol>
+  <li>
+    <p>Open the First Floor plan view.</p>
+  </li>
+  <li>
+    <p>Duplicate the First Floor plan view.</p>
+
+    <p>a.  In Project Browser, select First Floor plan view name.</p>
+
+    <p>b.  Right click the named view and select Duplicate View \ Duplicate.</p>
+
+    <p>c.  Rename the copied version of the view in Project Browser by right clicking the name and select Rename.</p>
+
+    <p>d.  Rename view to: Level 1 – Furniture.</p>
+
+    <p>e.  Click OK to continue.</p>
+  </li>
+  <li>
+    <p>Override graphic properties of non-furniture categories to halftone
+effect.</p>
+
+    <p>a.  Open Visibility / Graphics Overrides dialog box, type shortcut:  <strong>VG.</strong></p>
+
+    <p>b.  On the Model Categories tab, Scroll down and place the following categories in a selection set:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Furniture
+
+Furniture systems
+
+Specialty Equipment
+</code></pre></div>    </div>
+
+    <p><img src="media\image6.png" alt="" /></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*Note: Use CTRL + Left click with mouse to build a selection
+set.*
+</code></pre></div>    </div>
+
+    <p>c.  Click Invert to invert the selected model categories.</p>
+
+    <p>d.  Mark the Halftone property (Mark 1) for any of the selected
+    &gt; categories and it will apply that property to all selected
+    &gt; categories.</p>
+
+    <p><img src="media\image7.png" alt="" /></p>
+
+    <p>e.  Click OK to continue.</p>
+  </li>
+  <li>
+    <p>Progress override results below.</p>
+
+    <p><img src="media\image8.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Override graphic properties of furniture categories to be of a
+different color.</p>
+
+    <p>a.  Open Visibility / Graphics Overrides dialog box, type shortcut: <strong>VG.</strong></p>
+
+    <p>b.  Scroll down and select both furniture categories.</p>
+
+    <p>c.  Override the Projection / Surface line property (Mark 1) for Lines and assign it a lineweight of 6 (Mark 2) and the color orange (Mark 3).</p>
+
+    <p><img src="media\image9.png" alt="" /></p>
+
+    <p>d.  Click OK to continue.</p>
+
+    <p>e.  Click OK to exit the Visibility / Graphics Overrides dialog box.</p>
+  </li>
+  <li>
+    <p>Finished override results below.</p>
+
+    <p><img src="media\image10.png" alt="" /></p>
+
+    <p><em>Note: Partial floor plan shown.</em></p>
+  </li>
+</ol>
+
+<h3 id="create-a-level-1-residence-only-plan-view">Create a Level 1 Residence only plan view</h3>
+
+<p>This plan view will focus on just the Residence area of the house.</p>
+
+<ol>
+  <li>
+    <p>Open the First Floor plan view.</p>
+  </li>
+  <li>
+    <p>Duplicate the First Floor plan view.</p>
+  </li>
+  <li>
+    <p>Rename copied view to:</p>
+
+    <p>First Floor – Residence.</p>
+  </li>
+  <li>
+    <p>Turn on crop window for the view and resize it.</p>
+
+    <p>a.  Click Show Crop Region tool (Mark 1) in the View Control toolbar.</p>
+
+    <p><img src="media\image11.png" alt="" /></p>
+
+    <p>b.  Select the crop region in the canvas window and use the blue drag handles (Mark 2) to resize the window to appear just around the Residence area indicate by Mark 3.</p>
+
+    <p><img src="media\image12.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Hide the Crop Region Window when done.</p>
+
+    <p><img src="media\image13.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Finished crop region resizing results below.</p>
+
+    <p><img src="media\image14.png" alt="" /></p>
+  </li>
+</ol>
+
+<h3 id="create-a-level-2-residence-only-plan-view">Create a Level 2 Residence only plan view</h3>
+
+<p>This plan view will focus on just the Residence area of the house.</p>
+
+<ol>
+  <li>
+    <p>Repeat the steps shown for creating the previous plan view for the
+Second Floor plan view.</p>
+  </li>
+  <li>
+    <p>Rename Second Floor view to:</p>
+
+    <p>Level 2 – Residence.</p>
+  </li>
+  <li>
+    <p>Crop the view region to just the Residence plan only similar to
+Level 1- Residence plan view.</p>
+  </li>
+  <li>
+    <p>Change the View Range parameters to see the first floor below.</p>
+
+    <p>a.  In Properties palette, scroll down to Extents category and click Edit button for View Range.</p>
+
+    <p><img src="media\image15.png" alt="" /></p>
+  </li>
+  <li>
+    <p>In View Range dialog box, set View Depth to: Level Below. (Mark 1)
+and click Apply (Mark 2) to see the results in the canvas window.</p>
+
+    <p><img src="media\image16.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Click OK to dismiss dialog box.</p>
+  </li>
+  <li>
+    <p>Save the Revit file as: Module06Ex01.rvt</p>
+
+    <p>This concludes Exercise 1.</p>
+  </li>
+</ol>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/learnrevit/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Learn Revit</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Learn Revit</li><li><a class="u-email" href="mailto:galnd@jonkoping.se">galnd@jonkoping.se</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
