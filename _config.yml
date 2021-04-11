@@ -5,3 +5,4 @@ baseurl: /learnrevit
 plugins:
   - jekyll-feed
 email: galnd@jonkoping.se
+google_analytics: G-LS06T8XG59
