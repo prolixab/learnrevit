@@ -5,68 +5,68 @@ permalink: /modules/module01/exercise1
 exclude: true
 ---
 
-[Learn Revit](/learnrevit/) > [Module 1](/learnrevit/modules/module01/) > Exercise 1
+[Learn Revit](/learnrevit/) > [Modul 1](/learnrevit/modules/module01/) > Övning 1
 
-## Modeling Exterior and Interior Walls
+## Modellering av yttre och inre väggar
 
-**In this exercise, you will complete the development of both exterior and
-interior walls using an underlay as a guide. Note that the underlay serves only as a rough guide - exactness is not expected.**
+**I denna övning kommer du att slutföra utvecklingen av både yttre och
+Interiörväggar som använder ett underlag som en guide.Observera att underlaget endast fungerar som en grov guide - exakthet förväntas inte.**
 
-Objectives:
+Mål:
 
--   Create walls by picking their location line and sketching them in a
-    plan view.
+-   Skapa väggar genom att välja sin platslinje och skissa dem i en
+    planritning.
 
--   Change the orientation of walls that have been placed.
+- Ändra orienteringen av väggar som har placerats.
 
 
-### Create exterior walls
+### Skapa ytterväggar
 
-1.   **Download the start file [here](Module01Ex01.rvt).**
+1. ** Ladda ner startfilen [här](Module01Ex01.rvt).**
 
-2.  Open the file.
+2.  Öppna filen.
 
-3.  Open the Ground Floor plan view.
+3. Öppna vyn på bottenplan.
 
-4.  On the Architecture tab, click Wall.
+4. Klicka på väggen på arkitekturen.
 
     ![](media\image2.png)
 
-5.  In Properties Palette, select Generic 8\" (.20 m) wall type. Place
-    the walls by setting the location line to Finish Face:Exterior and
-    tracing the outer edge of the walls shown in the underlay drawing.
+5.  I Properties Palette, välj Generic 8\" (.20 m) väggtyp.Plats
+    väggarna genom att ställa in platslinjen för att avsluta ansiktet: exteriör och
+    Spårning av den yttre kanten på väggarna som visas i underlagsteckningen.
 
-    *Note: Placement of walls is direction dependent relative to the
-    location line used. If wall footprint falls outside of the intended
-    location, use the space bar key to flip the orientation of the wall
-    while drawing.*
+    *Obs: Placering av väggar är riktningsberoende relativt
+    Platslinje som används.Om väggavtryck faller utanför det avsedda
+    Plats, använd Space Bar Key för att vända väggens orientering
+    medan du ritar.*
 
-6.  Completion of exterior walls highlighted in blue.
+6.  Slutförande av ytterväggar markerade i blått.
 
     ![](media\image3.png)
 
-### Create interior walls
+### Skapa inre väggar
 
-1.  Continue adding interior walls to the building model using the underlay drawing as a guide to determine
-    their location.
+1.  Fortsätt lägga till inre väggar till byggmodellen med hjälp av underlagsteckningen som en guide för att bestämma
+    deras läge.
 
-2.  Add new interior walls using the Generic 3 1/8\" (.08 m) wall type.
-    Place the walls by setting the location line to either the Finish Face:Exterior or
-    Finish Face:Interior and tracing the corresponding edge of the walls shown
-    in the underlay drawing.
+2.  Lägg till nya inre väggar med Generic 3 1/8\" (.08 m) väggtyp.
+    Placera väggarna genom att ställa in platslinjen till antingen Finish Face:Exterior eller
+    Finish Face:Interior och spåra motsvarande kant på de visade väggarna
+    i underlagsteckningen.
 
-    *Note: Placement of walls is direction dependent relative to the
-    location line used. If wall footprint falls outside of the intended
-    location, use the space bar key to flip the orientation of the wall
-    while drawing.*
+    *Obs: Placering av väggar är riktningsberoende relativt
+    Platslinje som används.Om väggavtryck faller utanför det avsedda
+    Plats, använd Space Bar Key för att vända väggens orientering
+    medan du ritar.*
 
 
-7.  Completion of interior walls highlighted in blue.
+7.  Avslutande av inre väggar markerade i blått.
 
     ![](media\image4.png)
 
 
-1.  Save the Revit file as: Module01Ex01_Finished.rvt and hand in.
+1.  Spara Revit -filen som: Module01Ex01_Finished.rvt och lämna in.
 
-    This concludes Exercise 1.
+    Detta avslutar övning 1.
 
