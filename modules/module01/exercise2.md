@@ -7,17 +7,14 @@ exclude: true
 
 [Learn Revit](/learnrevit/) > [Modul 1](/learnrevit/modules/module01/) > Övning 2
 
-## Lägga till dörrar och fönster
+## Lägg till dörrar och fönster
 
-**I den här övningen lägger du till dörrar och fönsteröppningar till samma
-hus i föregående övning med Autodesk Revit.**
+**I denna övning lägger du till dörrar och fönster till huset från föregående övning**
 
 Mål:
 
-- Lägg till dörrar och fönster i en byggnadsmodell genom att välja sin typ och
-    placering
-
-    Komponenter i värdväggar.
+- Lägg till dörrar och fönster i en byggnadsmodell genom att välja typ och
+    placera ut komponenter i värdväggar.
 
 - Byt dörr och fönsterplacering.
 
@@ -27,145 +24,125 @@ Mål:
 
 1.   **Ladda ner startfilen [här](Module01Ex02.rvt).**
 
-9.  Öppna vyn på bottenplan.
+9.  Öppna **Ground Floor plan view** (bottenplanvyn).
 
-10. På Architecture flik, klick Door.
+10. Gå in på Architecture fliken och klick Door.
 
     ![](media\image5.png)
 
-11. I Properties Palette, välj Double-Glass 48" x 102" dörrtyp.
+11. I Properties Palette, välj dörrtyp Double-Glass 48" x 102" .
 
     ![](media\image6.png){
 
-12. Placera Double-Glass 48" x 102" dörrtyp på varje plats där Type
-    B identifieras i Ground Floor plan view.
+12. Placera ut dörrtyp Double-Glass 48" x 102"  på varje plats där Type
+    A syns i Ground Floor plan view.
 
     ![](media\image7.png)
 
-    a.  Hover Cursor Over Revit Wall och använd CAD -underlag som referens
-        > Guide för överlämnande och svängningsriktning
+    a.  Håll muspekaren över väggen och använd underlaget som referens.
 
-    b.  Vänster klicka för att placera dörren
+    b.  Vänsterklicka för att placera dörren.
 
-        *Obs: Dörrar är värd element, du måste sväva över kanten
-        av en Revit -vägg för att förhandsgranska dörren som ska placeras.*
+        Obs: Dörrar är s.k. värdelement, d.v.s. du måste peka på kanten av en vägg för att förhandsgranska dörrens placering.
+ 
+        Använd mellanstegstangent för att ändra riktningen av dörrar före placering.
 
-        *För att ändra överlämnandet av enstaka dörrar före placering av placering
-        de space bar tangent.*
-
-13. I Properties Palette, välj Single-Glass 24" x 102" dörrtyp och
-    plats på varje plats där Type B identifieras i Ground
-    Floor plan view.
+13. I Properties Palette, välj dörrtyp Single-Glass 24" x 102"  och lägg ut dessa på varje plats där Type B syns i Ground Floor plan view.
 
     ![](media\image7.png)
 
-> *Obs: För att ändra överlämnandet av enstaka dörrar före placering av placering
-> de space bar tangent.*
+     *Obs: Använd mellanstegstangent för att ändra riktningen av dörrar före placering.*
 
-### Placera inre dörrar
+### Placera innerdörrar
 
-1.  På Architecture tab, klick Door.
+1.  Under Architecture fliken klick Door.
 
-
-14. I Properties Palette, Välj Single-Flush 20" x 84" dörrtyp och
-    plats på varje plats därType A identifieras i Ground
+14. I Properties Palette, välj dörrtyp Single-Flush 20" x 84"  och
+    lägga ut dörrar på varje plats där Type A ska finnas i Ground
     Floor plan view.
 
     ![](media\image8.png)
 
-    a.  Håll pekaren över Revit wall och använd CAD -underlag som referens
-        Guide för överlämnande och svängningsriktning
+    a.  Håll pekaren över väggarna och använd underlaget som guide för placering och riktning.
 
     ![](media\image9.png)
 
-    b.  Vänster klicka för att placera dörren
+    b.  Vänsterklicka för att placera dörren
 
-        *Obs: Dörrar är värd element, du måste sväva över kanten
-        av en Revit -vägg för att förhandsgranska dörren som ska placeras.*
+        Obs: Dörrar är värd element, du måste peka på kanten av en vägg för att förhandsgranska dörrens placering.
+    
+        Använd mellanstegstangent för att ändra riktningen av dörrar före placering.
 
-        *För att ändra överlämnandet av enstaka dörrar före placering använd
-        space tangent.*
-
-15. Välj i Egenskapspaletten Single-Flush 24" x 84" door type och
-    plats på varje plats där typ B identifieras i Ground
+1.  Välj i Properties palette dörrtyp Single-Flush 24" x 84"  och
+    placera ut en dörr på varje plats där Type B visas i Ground
     Floor plan view.
 
     ![](media\image8.png)
 
-16. Välj i Egenskapspaletten Double-Flush 40" x 84" door type och
-    plats på varje plats där typ C identifieras i Ground
+2.  Välj i Properties palette dörrtyp Double-Flush 40" x 84"  och
+    placera ut en dörr på varje plats där Type C visas i Ground
     Floor plan view.
 
     ![](media\image8.png)
 
-### Placera yttre fönster
+### Placera ytterfönster
 
-1.  På Architecture tab, klick Window.
+1.  Under Architecture fliken klick Window.
 
     ![](media\image10.png)
 
 
-2.  I Properties Palette, välj Casement with Trim 24" x 24" fönster
-    typ.
+2.  I Properties Palette, välj fönstertyp Casement with Trim 24" x 24". 
 
-3.  PLacera ut Casement with Trim 24" x 24" fönstertyp på varje plats där
-    Type A identifieras i Ground Floor plan view.
+3.  Placera ut fönstertyp Casement with Trim 24" x 24" på varje plats där
+    Type A visas i Ground Floor plan view.
 
     ![](media\image11.png)
 
-    a.  Placera pekaren över den yttre sidan på Revit -väggen och använd
-        > CAD underlag som referensguide
+    a.  Placera pekaren över den yttre sidan av väggen och använd underlaget som guide
 
-    b.  Vänster klicka för att placera fönstret
+    b.  Vänsterklicka för att placera fönstret
 
-        *Obs: Windows är värd element, du måste sväva över kanten
-        av en Revit -vägg för att förhandsgranska fönstret som ska placeras.*
+        Obs: Windows är ett s.k. värdelement. Då måste du peka på kanten av en vägg för att förhandsgranska fönstret som ska placeras.
 
-        *Svävar markören över revitväggens yttre ansikte
-        Säkerställer rätt orientering av Revit -fönstret.*
+        Peka markören över väggens yttre ansikte och säkerställa rätt fönsterorientering.
 
-4.  Välj i Egenskapspaletten Fixed with Trim 44" x 24" fönstertyp
-    och placera på varje plats där typ B identifieras i Ground
+4.  Välj i Properties palette fönstertyp Fixed with Trim 44" x 24" 
+    och placera ut ett fönster på varje plats där Type B visas i Ground
     Floor plan view.
 
     ![](media\image12.png)
 
-5.  Välj i Egenskapspaletten Casement with Trim 24" x 48" fönster
-    typ och plats på varje plats där typ C identifieras i
-    Ground Floor plan view.
+5.  Välj i Properties palette fönstertyp Casement with Trim 24" x 48"  och placera ut ett fönster på varje plats där Type C visas i Ground Floor plan view.
 
     ![](media\image12.png)
 
-6.  Välj i Egenskapspaletten Fixed with Trim 44" x 48" fönstertyp
-    och placera på varje plats där typ D identifieras i Ground
-    Floor plan view.
+6.  Välj i Properties palette fönstertyp Fixed with Trim 44" x 48" och placera ut ett fönster på varje plats där Type D visas i Ground Floor plan view.
 
     ![](media\image12.png)
 
-7.  Hit ESC Key två gånger för att avsluta fönsterkommandot
+7.  Tryck på ESC tangent två gånger för att avsluta.
 
-Ändra fönsterhuvudets höjd
+### Ändra fönsterhuvudets höjd
 
-1.  Öppna {3D} 3D se.
-
-
-1.  Kretsa om modellen för att se modellen för de yttre fönstren bara
-    placerad.
-
-    *Obs: Använd ViewCube eller håll ner skiftnyckel + håll ner mitten
-    Musknapp och dra musen i önskan.*
+1.  Öppna 3D vyn.
 
 
-23. Fokusera på Type A fönster i det övre högra hörnet av plan
+2.  Rotera modellen för att se de nyligen placerade ytterfönstren.
+
+    *Obs: Använd ViewCube eller håll ner skiftnyckel + mitten musknapp och dra musen.*
+
+
+23. Kolla på Type A fönstrena i det övre högra hörnet av plan
     view.
 
     ![](media\image13.png)
 
-24. Placera båda Type A Windows i en gemensam urvalsuppsättning.Hamnar
-    Ctrl -tangenten, vänsterklick på varje fönster för att placera dem i ett gemensamt valuppsättning.
+24. Välj båda Type A fönstren genom att hålla ner
+    Ctrl tangenten samtidigt som  du vänsterklickar på varje fönster.
 
 25. In Properties palette, ändra Head Height värde till: **7'-0"
-    (2.123m)**
+(2123 mm)**
 
     ![](media\image14.png)
 
@@ -176,7 +153,7 @@ Mål:
 
     ![](media\image15.png)
 
-27.   Spara Revit -filen som: Module01Ex02_Finished.rvt och lämna in.
+27.   Spara filen som: Module01Ex02_Finished.rvt och lämna in.
     
-    Detta avslutar övning 2.
+Nu är du klar med övning 2.
 
