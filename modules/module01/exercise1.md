@@ -5,68 +5,66 @@ permalink: /modules/module01/exercise1
 exclude: true
 ---
 
-[Learn Revit](/learnrevit/) > [Module 1](/learnrevit/modules/module01/) > Exercise 1
+[Learn Revit](/learnrevit/) > [Modul 1](/learnrevit/modules/module01/) > Övning 1
 
-## Modeling Exterior and Interior Walls
+## Modellering av yttre och inre väggar
 
-**In this exercise, you will complete the development of both exterior and
-interior walls using an underlay as a guide. Note that the underlay serves only as a rough guide - exactness is not expected.**
+**I denna övning kommer du att slutföra arbetet med både ytter- och
+innerväggar efter det förritade underlaget. Observera att underlaget endast fungerar som en grov guide - nogrannhet förväntas inte.**
 
-Objectives:
+Mål:
 
--   Create walls by picking their location line and sketching them in a
-    plan view.
+-   Skapa väggar genom att skissa dem i en
+    planritning.
 
--   Change the orientation of walls that have been placed.
+- Ändra orienteringen av väggar som har ritats.
 
 
-### Create exterior walls
+### Skapa ytterväggar
 
-1.   **Download the start file [here](Module01Ex01.rvt).**
+1. **Ladda ner startfilen [här](Module01Ex01.rvt).**
 
-2.  Open the file.
+2.  Öppna filen.
 
-3.  Open the Ground Floor plan view.
+3. Öppna  Ground Floor plan view (vyn på bottenplan).
 
-4.  On the Architecture tab, click Wall.
+4. Klicka på Wall i fliken "Architecture".
 
     ![](media\image2.png)
 
-5.  In Properties Palette, select Generic 8\" (.20 m) wall type. Place
-    the walls by setting the location line to Finish Face:Exterior and
-    tracing the outer edge of the walls shown in the underlay drawing.
+5.  I Properties Palette, välj väggtyp Generic 8\" (0.20 m) . Lägg ut
+    väggarna genom att ställa in "location line" till "Finish Face:Exterior" och
+    spåra den yttre kanten på väggarna som visas i underlaget.
 
-    *Note: Placement of walls is direction dependent relative to the
-    location line used. If wall footprint falls outside of the intended
-    location, use the space bar key to flip the orientation of the wall
-    while drawing.*
+    *Obs: Placering av väggar är riktningsberoende relativt den
+    location line som används. Om väggen faller utanför den avsedda
+    platsen, använd mellanslagstangenten för att vända väggens orientering
+    medan du ritar.*
 
-6.  Completion of exterior walls highlighted in blue.
+6.  När du är klar bör ytterväggarna se ut som på bilden.
 
     ![](media\image3.png)
 
-### Create interior walls
+### Skapa innerväggar
 
-1.  Continue adding interior walls to the building model using the underlay drawing as a guide to determine
-    their location.
+1.  Fortsätt lägga till innerväggar till byggmodellen med hjälp av underlaget som guide för att bestämma läget.
 
-2.  Add new interior walls using the Generic 3 1/8\" (.08 m) wall type.
-    Place the walls by setting the location line to either the Finish Face:Exterior or
-    Finish Face:Interior and tracing the corresponding edge of the walls shown
-    in the underlay drawing.
+2.  Lägg till nya innerväggar med väggtyp Generic 3 1/8\" Partition (0.08 m).
+    Placera väggarna genom att ställa in location line till antingen "Finish Face:Exterior" eller
+    "Finish Face:Interior" och spåra motsvarande linjer på underlaget.
 
-    *Note: Placement of walls is direction dependent relative to the
-    location line used. If wall footprint falls outside of the intended
-    location, use the space bar key to flip the orientation of the wall
-    while drawing.*
+    *Obs: Placering av väggar är riktningsberoende relativt den
+    location line som används. Om väggen faller utanför den avsedda
+    platsen, använd mellanslagstangenten för att vända väggens orientering
+    medan du ritar.*
 
 
-7.  Completion of interior walls highlighted in blue.
+3.  När du är klar bör innerväggarna se ut som på bilden.
 
     ![](media\image4.png)
 
 
-1.  Save the Revit file as: Module01Ex01_Finished.rvt and hand in.
+1.  Spara Revit filen som: Module01Ex01_Finished.rvt och lämna in.
 
-    This concludes Exercise 1.
+    Nu är du klar med övning 1.
 

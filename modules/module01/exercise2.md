@@ -5,179 +5,155 @@ permalink: /modules/module01/exercise2
 exclude: true
 ---
 
-[Learn Revit](/learnrevit/) > [Module 1](/learnrevit/modules/module01/) > Exercise 2
+[Learn Revit](/learnrevit/) > [Modul 1](/learnrevit/modules/module01/) > Övning 2
 
-## Adding Doors and Windows
+## Lägg till dörrar och fönster
 
-**In this exercise, you will add doors and window openings to the same
-house in the previous exercise using Autodesk Revit.**
+**I denna övning lägger du till dörrar och fönster till huset från föregående övning**
 
-Objectives:
+Mål:
 
--   Add doors and windows to a building model by choosing their type and
-    placing
+- Lägg till dörrar och fönster i en byggnadsmodell genom att välja typ och
+    placera ut komponenter i värdväggar.
 
-    components in host walls.
+- Byt dörr och fönsterplacering.
 
--   Change door and window placement.
+- Ändra dörr- och fönsterhöjdegenskaper.
 
--   Change door and window height properties.
+### Placera ytterdörrar
 
-### Place exterior doors
+1.   **Ladda ner startfilen [här](Module01Ex02.rvt).**
 
-1.   **Download the start file [here](Module01Ex02.rvt).**
+9.  Öppna **Ground Floor plan view** (bottenplanvyn).
 
-9.  Open the Ground Floor plan view.
-
-10. On the Architecture tab, click Door.
+10. Gå in på Architecture fliken och klick Door.
 
     ![](media\image5.png)
 
-11. In Properties Palette, select Double-Glass 48" x 102" door type.
+11. I Properties Palette, välj dörrtyp Double-Glass 48" x 102" .
 
     ![](media\image6.png){
 
-12. Place Double-Glass 48" x 102" door type at each location where Type
-    B is identified in the Ground Floor plan view.
+12. Placera ut dörrtyp Double-Glass 48" x 102"  på varje plats där Type
+    A syns i Ground Floor plan view.
 
     ![](media\image7.png)
 
-    a.  Hover cursor over Revit wall and use CAD underlay as a reference
-        > guide for handing and swing direction
+    a.  Håll muspekaren över väggen och använd underlaget som referens.
 
-    b.  Left click to place door
+    b.  Vänsterklicka för att placera dörren.
 
-        *Note: Doors are hosted elements, you must hover over the edge
-        of a Revit wall in order to preview the door to be placed.*
+        Obs: Dörrar är s.k. värdelement, d.v.s. du måste peka på kanten av en vägg för att förhandsgranska dörrens placering.
+ 
+        Använd mellanstegstangent för att ändra riktningen av dörrar före placering.
 
-        *To change the handing of single doors prior to placement use
-        the space bar key.*
-
-13. In Properties Palette, select Single-Glass 24" x 102" door type and
-    place at each location where Type B is identified in the Ground
-    Floor plan view.
+13. I Properties Palette, välj dörrtyp Single-Glass 24" x 102"  och lägg ut dessa på varje plats där Type B syns i Ground Floor plan view.
 
     ![](media\image7.png)
 
-> *Note: To change the handing of single doors prior to placement use
-> the space bar key.*
+     *Obs: Använd mellanstegstangent för att ändra riktningen av dörrar före placering.*
 
-### Place interior doors
+### Placera innerdörrar
 
-1.  On the Architecture tab, click Door.
+1.  Under Architecture fliken klick Door.
 
-
-14. In Properties Palette, select Single-Flush 20" x 84" door type and
-    place at each location where Type A is identified in the Ground
+14. I Properties Palette, välj dörrtyp Single-Flush 20" x 84"  och
+    lägga ut dörrar på varje plats där Type A ska finnas i Ground
     Floor plan view.
 
     ![](media\image8.png)
 
-    a.  Hover cursor over Revit wall and use CAD underlay as a reference
-        guide for handing and swing direction
+    a.  Håll pekaren över väggarna och använd underlaget som guide för placering och riktning.
 
     ![](media\image9.png)
 
-    b.  Left click to place door
+    b.  Vänsterklicka för att placera dörren
 
-        *Note: Doors are hosted elements, you must hover over the edge
-        of a Revit wall in order to preview the door to be placed.*
+        Obs: Dörrar är värd element, du måste peka på kanten av en vägg för att förhandsgranska dörrens placering.
+    
+        Använd mellanstegstangent för att ändra riktningen av dörrar före placering.
 
-        *To change the handing of single doors prior to placement use
-        the space bar key.*
-
-15. In Properties Palette, select Single-Flush 24" x 84" door type and
-    place at each location where Type B is identified in the Ground
+1.  Välj i Properties palette dörrtyp Single-Flush 24" x 84"  och
+    placera ut en dörr på varje plats där Type B visas i Ground
     Floor plan view.
 
     ![](media\image8.png)
 
-16. In Properties Palette, select Double-Flush 40" x 84" door type and
-    place at each location where Type C is identified in the Ground
+2.  Välj i Properties palette dörrtyp Double-Flush 40" x 84"  och
+    placera ut en dörr på varje plats där Type C visas i Ground
     Floor plan view.
 
     ![](media\image8.png)
 
-### Place exterior windows
+### Placera ytterfönster
 
-1.  On the Architecture tab, click Window.
+1.  Under Architecture fliken klick Window.
 
     ![](media\image10.png)
 
 
-17. In Properties Palette, select Casement with Trim 24" x 24" window
-    type.
+2.  I Properties Palette, välj fönstertyp Casement with Trim 24" x 24". 
 
-18. Place Casement with Trim 24" x 24"window type at each location where
-    Type A is identified in the Ground Floor plan view.
+3.  Placera ut fönstertyp Casement with Trim 24" x 24" på varje plats där
+    Type A visas i Ground Floor plan view.
 
     ![](media\image11.png)
 
-    a.  Hover cursor over the exterior face of the Revit wall and use
-        > CAD underlay as a reference guide
+    a.  Placera pekaren över den yttre sidan av väggen och använd underlaget som guide
 
-    b.  Left click to place window
+    b.  Vänsterklicka för att placera fönstret
 
-        *Note: Windows are hosted elements, you must hover over the edge
-        of a Revit wall in order to preview the window to be placed.*
+        Obs: Windows är ett s.k. värdelement. Då måste du peka på kanten av en vägg för att förhandsgranska fönstret som ska placeras.
 
-        *Hovering the cursor over the outside face of the Revit wall
-        ensures the correct orientation of the Revit window.*
+        Peka markören över väggens yttre ansikte och säkerställa rätt fönsterorientering.
 
-19. In Properties Palette, select Fixed with Trim 44" x 24" window type
-    and place at each location where Type B is identified in the Ground
+4.  Välj i Properties palette fönstertyp Fixed with Trim 44" x 24" 
+    och placera ut ett fönster på varje plats där Type B visas i Ground
     Floor plan view.
 
     ![](media\image12.png)
 
-20. In Properties Palette, select Casement with Trim 24" x 48" window
-    type and place at each location where Type C is identified in the
-    Ground Floor plan view.
+5.  Välj i Properties palette fönstertyp Casement with Trim 24" x 48"  och placera ut ett fönster på varje plats där Type C visas i Ground Floor plan view.
 
     ![](media\image12.png)
 
-21. In Properties Palette, select Fixed with Trim 44" x 48" window type
-    and place at each location where Type D is identified in the Ground
-    Floor plan view.
+6.  Välj i Properties palette fönstertyp Fixed with Trim 44" x 48" och placera ut ett fönster på varje plats där Type D visas i Ground Floor plan view.
 
     ![](media\image12.png)
 
-22. Hit ESC key twice to end the window command
+7.  Tryck på ESC tangent två gånger för att avsluta.
 
-Change window head height
+### Ändra fönsterhuvudets höjd
 
-1.  Open the {3D} 3D view.
-
-
-1.  Orbit the model to see the model of the exterior windows just
-    placed.
-
-    *Note: Use the ViewCube or hold down Shift key + hold down middle
-    mouse button and drag the mouse in direction desired.*
+1.  Öppna 3D vyn.
 
 
-23. Focus on the Type A windows in the upper right corner of the plan
+2.  Rotera modellen för att se de nyligen placerade ytterfönstren.
+
+    *Obs: Använd ViewCube eller håll ner skiftnyckel + mitten musknapp och dra musen.*
+
+
+23. Kolla på Type A fönstrena i det övre högra hörnet av plan
     view.
 
     ![](media\image13.png)
 
-24. Place both Type A windows in a common selection set. Holding down
-    the CTRL key, left click on each window to place them in a common
-    selection set.
+24. Välj båda Type A fönstren genom att hålla ner
+    Ctrl tangenten samtidigt som  du vänsterklickar på varje fönster.
 
-25. In Properties palette, change the Head Height value to: **7'-0"
-    (2.123m)**
+25. In Properties palette, ändra Head Height värde till: **7'-0"
+(2123 mm)**
 
     ![](media\image14.png)
 
-    a.  Click APPLY to accept and apply changes to the model elements.
+    a.  Klick APPLY att acceptera och tillämpa ändringar på modellelementen.
 
-26. Repeat steps 3 through 5 for window types: Type B, Type C, and Type
-    D separately.
+26. Upprepa steg 3 till 5 för fönstertyper: Type B, Type C, och Type
+    D.
 
     ![](media\image15.png)
 
-27.   Save the Revit file as: Module01Ex02_Finished.rvt and hand in.
+27.   Spara filen som: Module01Ex02_Finished.rvt och lämna in.
     
-    This concludes Exercise 2.
+Nu är du klar med övning 2.
 
