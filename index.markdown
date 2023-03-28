@@ -2,10 +2,10 @@
 layout: home
 ---
 
-This is an introductory course in Revit.
+Detta är en introduktionskurs i Revit.
 
-The course is divided into several modules each with a number of exercises.
+Kursen är uppdelad i flera moduler med ett antal övningar vardera.
 
-For each exercise you should download a starter file, then follow the instructions given on the exercise page. When you are finished with the exercise you hand in your finished file.
+I varje övning bör du först ladda ner en startfil och följa sedan instruktionerna i övningen. När du är klar med övningen lämnar du i den färdiga filen.
 
-Good luck!
+Lycka till!

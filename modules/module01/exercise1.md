@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Modeling Building Elements - Exercise 1
+title: Modellering av byggnadselement - Övning 1
 permalink: /modules/module01/exercise1
 exclude: true
 ---

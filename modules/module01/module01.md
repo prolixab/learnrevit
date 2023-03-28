@@ -1,20 +1,18 @@
 ---
 layout: page
-title: Module 1
+title: Modul 1
 permalink: /modules/module01/
 ---
 
 
-# Modeling Building Elements
+# Modellering av byggnadselement
 
-This module serves as a good introduction to the concepts of host
-elements such as walls and wall hosted elements such as doors and
-windows. With these key underpinnings you should feel confident in
-developing your own BIM models applying these concepts.
+Denna modul fungerar som en bra introduktion till värdelement som väggar och element som kan sitta i väggar såsom dörrar och
+fönster. Utifrån detta bör du kunna utveckla dina egna BIM modeller där du tillämpar dessa koncept.
 
-[Exercise 1 Modeling Exterior and Interior Walls](exercise1)
+[Övning 1 Modellering av ytter och inre väggar](exercise1)
 
-[Exercise 2 Adding Doors and Windows](exercise2)
+[Övning 2 Att lägga till dörrar och fönster](exercise2)
 
-[Exercise 3 Creating Floors and Roofs](exercise3)
+[Övning 3 Att skapa golv och tak](exercise3)
 

@@ -5,169 +5,164 @@ permalink: /modules/module02/exercise1
 exclude: true
 ---
 
-[Learn Revit](/learnrevit/) > [Module 2](/learnrevit/modules/module02/) > Exercise 1
+[Learn Revit](/learnrevit/) > [Modul 2](/learnrevit/modules/module02/) > Övning 1
 
-## Modeling Wall Types, Structures, and Design Features
+## Modellera väggtyper, strukturer och Design Features
 
-###  Change exterior wall types through substitution in-place
+###  Ändra ytterväggstyper genom substitution på plats
 
-2.  **Download the start file [here](Module02Ex01.rvt).**
+1.  **Ladda ner startfilen [här](Module02Ex01.rvt).**
 
-3.  Open the Ground Floor plan view.
+3.  Öppna Ground Floor plan view.
 
-4.  Select all exterior walls of Generic -- 8" (0.2m).
+4.  Följ nu dessa steg för att välja alla ytterväggar av typ Generic -- 8" (200mm).
 
-    a.  Hover over an exterior wall.
+    a.  Håll muspekaren över en yttervägg.
 
     ![Image 2](media\image2.png)
 
-    b.  Right click in the canvas window and select Select All
+    b.  Högerklicka i canvas window och välj Select All
         > Instances\>Visible in View.
 
     ![Image 3](media\image3.png)
 
-    c.  Select Exterior -- Brick wall type.
+    c.  Välj väggtyp Exterior -- Brick wall.
 
     ![Image 4](media\image4.png)
 
-5.  Open {3D} 3D View. Confirm exterior walls are brick.
+5.  Öppna {3D} 3D View. Alla ytterväggar bör nu vara av tegel.
 
     ![Image 5 ](media\image5.png)
 
-### Create a new interior wall type
+### Skapa en ny inre väggtyp
 
-1.  Open the Ground Floor plan view.
+1.  Öppna Ground Floor plan view.
 
-1.  On the Architecture tab, click Wall.
+2.  Klicka på Wall under Architecture fliken.
 
     ![](media\image6.png)
 
-2.  In Properties Palette, select Generic 8\" (.20 m) wall type.
+3.  I Properties Palette välj väggtyp Generic 8\" (200mm).
 
-    a.  Click Edit Type.
+    a.  Välj Edit Type.
 
     ![Image 7](media\image7.png)
 
-    b.  Click Duplicate.
+    b.  Klicka på Duplicate.
 
     ![Image 8](media\image8.png)
 
-    c.  Rename to: Wood Panel Wall.
+    c.  Bytt namn till: Wood Panel Wall.
 
     ![Image 9](media\image9.png)
 
-    d.  Click OK.
+    d.  Klicka på OK.
 
-3.  Define the material definition of the wall type.
+4.  Du kommer nu att ändra på materialen och strukuren av denna väggtyp:
 
-    a.  Click Edit Structure.
+    a.  Klicka på Edit Structure.
 
     ![Image 10](media\image10.png)
 
-    b.  Edit Structure \[1\] to:
+    b.  Ändra Structure \[1\] to:
 
         Material = Wood -- Stud Layer
 
-        Thickness = **0.041m**
+        Thickness = **41mm**
 
     ![Image 11](media\image11.png)
 
-        *Note: Use search window in the Material Browser and type
-        material name you are looking for.*
+        *Tips: Använd sökfönstret i Material Browser och skriv namnet på 
+        materialet du söker efter.*
 
-> Structure \[1\] is associated with structural materials supporting a
-> wall and has the highest cleanup priority.
+> Structure \[1\] används till s.k. structural materials d.v.s. de som är viktiga för väggens hållfasthet. 
 
-c.  Click Insert button two times to add (2) new layers to the wall
-    > definition
+c.  Klicka på Insert två gånger för att lägga till två nya skikt i väggentypen.
 
 ![Image 12](media\image12.png)
 
 ![Image 13](media\image13.png)
 
-6.  Edit Layer 2:
+1.  Ändra på Layer 2 så här:
 
-    a.  Select Layer 2 row
+    a.  Välj raden Layer 2
 
-    b.  Click Up button once
+    b.  Klicka på Up
 
-    c.  Click Function = Finish 1 \[4\]
+    c.  Klicka på Function = Finish 1 \[4\]
 
-> Note: Function determines a material layers behavior in the model
+> Tips: Function determines a material layers behavior in the model
 > environment for cleanup at wall intersections with other wall types.
 > Material functions of the same kind will cleanup.
 >
-> Finish 1 \[4\] is associated with exterior materials and is a lower
-> priority than structural materials.
+> Finish 1 \[4\] används till yttrematerial och har en lägre prioritet än structural materials.
 
-d.  Change Material =
+d.  Ändra Material =
 
     Wood - Horizontal Panel
 
 ![Image 14](media\image14.png)
 
-> Note: Use search window in the Material Browser and type material name
-> you are looking for.
+>   *Tips: Använd sökfönstret i Material Browser och skriv namnet på 
+        materialet du söker efter.*
 
-e.  Change Thickness = **0.012m**
+e.  Ändra Thickness = **12mm**
 
 ![Image 15](media\image15.png)
 
 
-7.  Edit Layer 3:
+7.  Redigera i Layer 3 så här:
 
-    a.  Select Layer 3 row
+    a.  Välj rad Layer 3
 
-    b.  Click Down button twice
+    b.  Klick två gånger på Down.
 
-    c.  Click Function = Finish 2 \[5\]
+    c.  Klick Function = Finish 2 \[5\]
 
-> Note: Finish 2 \[5\] is associated with interior materials and is a
-> lower priority than structural materials.
+> Tips: Finish 2 \[5\] används till inrematerial och har en lägre prioritet än structural materials.
 
-d.  Change Material =
+d.  Ändra Material =
 
     Wood - Horizontal Panel
 
-e.  Change Thickness = **0.012m**
+e.  Change Thickness = **12mm**
 
 ![Image 16](media\image16.png)
 
 
-8.  Click OK button twice to exit both dialog boxes
+1.  Klicka på OK två gånger för att stänga båda dialog fönster.
 
-9.  Click Modify to end the wall placement command
+2.  Klicka på Modify för att avsluta placeringen av väggen.
 
-### Change interior wall types through substitution in-place
+### Ändra inreväggtyper genom substitution på plats
 
-1.  Select all interior walls of
+1.  Du ska nu välja alla innerväggar av typ
 
-    Interior - 3 1/8\" Partition (1-hr) (0.79m).
+    Interior - 3 1/8\" Partition (1-hr) (790mm).
 
-    a.  Hover over an interior wall.
+    a.  Håll muspekaren över en innervägg..
 
      ![Image17](media\image17.png)
 
-    b.  Right click in the canvas window and select Select All
+    b.  Högerklicka i canvas fönstret och välj Select All
         > Instances\>Visible in View.
 
-    c.  Select Wood Panel Wall wall type.
+    c.  Välj väggtyp Wood Panel Wall.
 
 
-10. Open Ground Floor plan view.
+10. Gå in på Ground Floor plan view.
 
-11. Select labeled exterior walls to receive Wood Panel Wall type.
+11. Välj de ytterväggar som syns i bilden. Dessa kommer ändras till väggtyp Wood Panel Wall.
 
     ![Image18](media\image18.png)
 
-12. In Properties palette, change wall type to: Wood Panel Wall type.
+12. I Properties palette, ändra väggtyp till Wood Panel Wall.
 
-13. Open {3D} 3D View. Confirm interior walls and selected exterior
-    walls have wood paneling.
+13. Öppna {3D} 3D View. Kontrollera att alla innerväggar och utvalda ytterväggar har en träskikt (wood paneling).
 
     ![Image19](media\image19.png)
 
-14. Save the Revit file as: Module02Ex01_Finished.rvt and hand in.
+14. Spara Revit filen som: Module02Ex01_Finished.rvt och lämna in.
 
-    This concludes Exercise 1.
+    Du är nu klar med Övning 1.
 
